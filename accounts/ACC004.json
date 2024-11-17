@@ -1,0 +1,27 @@
+{
+  "id": "ACC004",
+  "ownerName": "Mariam Giorgadze",
+  "status": "ACTIVE",
+  "currencies": {
+    "EUR": {
+      "code": "EUR",
+      "name": null,
+      "amount": 4056
+    },
+    "GBP": {
+      "code": "GBP",
+      "name": null,
+      "amount": 8872.357968
+    },
+    "USD": {
+      "code": "USD",
+      "name": null,
+      "amount": 1144
+    },
+    "GEL": {
+      "code": "GEL",
+      "name": null,
+      "amount": 6670.27
+    }
+  }
+}

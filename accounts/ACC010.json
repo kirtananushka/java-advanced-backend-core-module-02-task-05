@@ -1,0 +1,27 @@
+{
+  "id": "ACC010",
+  "ownerName": "Giorgi Tsiklauri",
+  "status": "ACTIVE",
+  "currencies": {
+    "EUR": {
+      "code": "EUR",
+      "name": null,
+      "amount": 8554
+    },
+    "GBP": {
+      "code": "GBP",
+      "name": null,
+      "amount": 6577
+    },
+    "USD": {
+      "code": "USD",
+      "name": null,
+      "amount": 10317.773528
+    },
+    "GEL": {
+      "code": "GEL",
+      "name": null,
+      "amount": 9276
+    }
+  }
+}

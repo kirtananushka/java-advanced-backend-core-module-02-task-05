@@ -1,0 +1,27 @@
+{
+  "id": "ACC009",
+  "ownerName": "Mariam Gelashvili",
+  "status": "ACTIVE",
+  "currencies": {
+    "EUR": {
+      "code": "EUR",
+      "name": null,
+      "amount": 1321
+    },
+    "GBP": {
+      "code": "GBP",
+      "name": null,
+      "amount": 5472.35
+    },
+    "USD": {
+      "code": "USD",
+      "name": null,
+      "amount": 1352
+    },
+    "GEL": {
+      "code": "GEL",
+      "name": null,
+      "amount": 24681
+    }
+  }
+}

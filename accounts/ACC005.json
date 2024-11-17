@@ -1,0 +1,27 @@
+{
+  "id": "ACC005",
+  "ownerName": "Davit Javakhishvili",
+  "status": "ACTIVE",
+  "currencies": {
+    "EUR": {
+      "code": "EUR",
+      "name": null,
+      "amount": 5593.85
+    },
+    "GBP": {
+      "code": "GBP",
+      "name": null,
+      "amount": 3622
+    },
+    "USD": {
+      "code": "USD",
+      "name": null,
+      "amount": 3715
+    },
+    "GEL": {
+      "code": "GEL",
+      "name": null,
+      "amount": 17905
+    }
+  }
+}

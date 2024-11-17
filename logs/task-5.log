@@ -1,0 +1,603 @@
+2024-11-17 15:18:50.984 [                main] INFO  c.t.CurrencyExchangeApplication      - Starting CurrencyExchangeApplication using Java 17.0.12 with PID 5800 (C:\Users\Kir_Tananushka\OneDrive - EPAM\MyTrainings\EPAM\JavaAdvancedBackendCore2024\Module02 Task05\currency-exchange-app\target\classes started by Kir_Tananushka in C:\Users\Kir_Tananushka\OneDrive - EPAM\MyTrainings\EPAM\JavaAdvancedBackendCore2024\Module02 Task05)
+2024-11-17 15:18:50.991 [                main] INFO  c.t.CurrencyExchangeApplication      - No active profile set, falling back to 1 default profile: "default"
+2024-11-17 15:18:52.378 [                main] INFO  com.tananushka.dao.AccountDao        - Created accounts directory at: accounts
+2024-11-17 15:18:52.664 [                main] INFO  c.t.CurrencyExchangeApplication      - Started CurrencyExchangeApplication in 2.621 seconds (process running for 3.695)
+2024-11-17 15:18:52.683 [                main] INFO  c.t.CurrencyExchangeApplication      - Setting up exchange rates...
+2024-11-17 15:18:52.684 [                main] INFO  c.t.operations.CurrencyOperations    - Registered exchange rate: 1 USD = 0.85 EUR
+2024-11-17 15:18:52.684 [                main] INFO  c.t.operations.CurrencyOperations    - Registered exchange rate: 1 USD = 0.73 GBP
+2024-11-17 15:18:52.686 [                main] INFO  c.t.operations.CurrencyOperations    - Registered exchange rate: 1 USD = 2.65 GEL
+2024-11-17 15:18:52.686 [                main] INFO  c.t.operations.CurrencyOperations    - Registered exchange rate: 1 EUR = 0.86 GBP
+2024-11-17 15:18:52.686 [                main] INFO  c.t.operations.CurrencyOperations    - Registered exchange rate: 1 EUR = 3.12 GEL
+2024-11-17 15:18:52.686 [                main] INFO  c.t.operations.CurrencyOperations    - Registered exchange rate: 1 GBP = 3.63 GEL
+2024-11-17 15:18:52.686 [                main] INFO  c.t.CurrencyExchangeApplication      - Exchange rates setup completed
+2024-11-17 15:18:52.686 [                main] INFO  c.t.CurrencyExchangeApplication      - Creating test accounts...
+2024-11-17 15:18:52.801 [                main] INFO  com.tananushka.dao.AccountDao        - Account saved: ACC001 at path: accounts\ACC001.json
+2024-11-17 15:18:52.802 [                main] INFO  c.tananushka.service.AccountService  - Created new account: ACC001
+2024-11-17 15:18:52.802 [                main] INFO  c.t.operations.CurrencyOperations    - Registered new account for Nino Tsintsadze with 4 currencies
+2024-11-17 15:18:52.802 [                main] INFO  c.t.CurrencyExchangeApplication      - Created account for Nino Tsintsadze with ID: ACC001
+2024-11-17 15:18:52.804 [                main] INFO  com.tananushka.dao.AccountDao        - Account saved: ACC002 at path: accounts\ACC002.json
+2024-11-17 15:18:52.806 [                main] INFO  c.tananushka.service.AccountService  - Created new account: ACC002
+2024-11-17 15:18:52.807 [                main] INFO  c.t.operations.CurrencyOperations    - Registered new account for Salome Chavchavadze with 4 currencies
+2024-11-17 15:18:52.807 [                main] INFO  c.t.CurrencyExchangeApplication      - Created account for Salome Chavchavadze with ID: ACC002
+2024-11-17 15:18:52.809 [                main] INFO  com.tananushka.dao.AccountDao        - Account saved: ACC003 at path: accounts\ACC003.json
+2024-11-17 15:18:52.809 [                main] INFO  c.tananushka.service.AccountService  - Created new account: ACC003
+2024-11-17 15:18:52.809 [                main] INFO  c.t.operations.CurrencyOperations    - Registered new account for Mariam Tsiklauri with 4 currencies
+2024-11-17 15:18:52.809 [                main] INFO  c.t.CurrencyExchangeApplication      - Created account for Mariam Tsiklauri with ID: ACC003
+2024-11-17 15:18:52.813 [                main] INFO  com.tananushka.dao.AccountDao        - Account saved: ACC004 at path: accounts\ACC004.json
+2024-11-17 15:18:52.813 [                main] INFO  c.tananushka.service.AccountService  - Created new account: ACC004
+2024-11-17 15:18:52.813 [                main] INFO  c.t.operations.CurrencyOperations    - Registered new account for Mariam Giorgadze with 4 currencies
+2024-11-17 15:18:52.813 [                main] INFO  c.t.CurrencyExchangeApplication      - Created account for Mariam Giorgadze with ID: ACC004
+2024-11-17 15:18:52.816 [                main] INFO  com.tananushka.dao.AccountDao        - Account saved: ACC005 at path: accounts\ACC005.json
+2024-11-17 15:18:52.816 [                main] INFO  c.tananushka.service.AccountService  - Created new account: ACC005
+2024-11-17 15:18:52.816 [                main] INFO  c.t.operations.CurrencyOperations    - Registered new account for Davit Javakhishvili with 4 currencies
+2024-11-17 15:18:52.816 [                main] INFO  c.t.CurrencyExchangeApplication      - Created account for Davit Javakhishvili with ID: ACC005
+2024-11-17 15:18:52.818 [                main] INFO  com.tananushka.dao.AccountDao        - Account saved: ACC006 at path: accounts\ACC006.json
+2024-11-17 15:18:52.818 [                main] INFO  c.tananushka.service.AccountService  - Created new account: ACC006
+2024-11-17 15:18:52.819 [                main] INFO  c.t.operations.CurrencyOperations    - Registered new account for Davit Lomidze with 4 currencies
+2024-11-17 15:18:52.819 [                main] INFO  c.t.CurrencyExchangeApplication      - Created account for Davit Lomidze with ID: ACC006
+2024-11-17 15:18:52.820 [                main] INFO  com.tananushka.dao.AccountDao        - Account saved: ACC007 at path: accounts\ACC007.json
+2024-11-17 15:18:52.821 [                main] INFO  c.tananushka.service.AccountService  - Created new account: ACC007
+2024-11-17 15:18:52.821 [                main] INFO  c.t.operations.CurrencyOperations    - Registered new account for Tamar Javakhishvili with 4 currencies
+2024-11-17 15:18:52.821 [                main] INFO  c.t.CurrencyExchangeApplication      - Created account for Tamar Javakhishvili with ID: ACC007
+2024-11-17 15:18:52.824 [                main] INFO  com.tananushka.dao.AccountDao        - Account saved: ACC008 at path: accounts\ACC008.json
+2024-11-17 15:18:52.824 [                main] INFO  c.tananushka.service.AccountService  - Created new account: ACC008
+2024-11-17 15:18:52.824 [                main] INFO  c.t.operations.CurrencyOperations    - Registered new account for Mariam Giorgadze with 4 currencies
+2024-11-17 15:18:52.824 [                main] INFO  c.t.CurrencyExchangeApplication      - Created account for Mariam Giorgadze with ID: ACC008
+2024-11-17 15:18:52.827 [                main] INFO  com.tananushka.dao.AccountDao        - Account saved: ACC009 at path: accounts\ACC009.json
+2024-11-17 15:18:52.827 [                main] INFO  c.tananushka.service.AccountService  - Created new account: ACC009
+2024-11-17 15:18:52.827 [                main] INFO  c.t.operations.CurrencyOperations    - Registered new account for Mariam Gelashvili with 4 currencies
+2024-11-17 15:18:52.828 [                main] INFO  c.t.CurrencyExchangeApplication      - Created account for Mariam Gelashvili with ID: ACC009
+2024-11-17 15:18:52.829 [                main] INFO  com.tananushka.dao.AccountDao        - Account saved: ACC010 at path: accounts\ACC010.json
+2024-11-17 15:18:52.830 [                main] INFO  c.tananushka.service.AccountService  - Created new account: ACC010
+2024-11-17 15:18:52.830 [                main] INFO  c.t.operations.CurrencyOperations    - Registered new account for Giorgi Tsiklauri with 4 currencies
+2024-11-17 15:18:52.830 [                main] INFO  c.t.CurrencyExchangeApplication      - Created account for Giorgi Tsiklauri with ID: ACC010
+2024-11-17 15:18:52.832 [                main] INFO  com.tananushka.dao.AccountDao        - Account saved: ACC011 at path: accounts\ACC011.json
+2024-11-17 15:18:52.833 [                main] INFO  c.tananushka.service.AccountService  - Created new account: ACC011
+2024-11-17 15:18:52.833 [                main] INFO  c.t.operations.CurrencyOperations    - Registered new account for Tamar Maisuradze with 4 currencies
+2024-11-17 15:18:52.833 [                main] INFO  c.t.CurrencyExchangeApplication      - Created account for Tamar Maisuradze with ID: ACC011
+2024-11-17 15:18:52.834 [                main] INFO  com.tananushka.dao.AccountDao        - Account saved: ACC012 at path: accounts\ACC012.json
+2024-11-17 15:18:52.835 [                main] INFO  c.tananushka.service.AccountService  - Created new account: ACC012
+2024-11-17 15:18:52.835 [                main] INFO  c.t.operations.CurrencyOperations    - Registered new account for Luka Beridze with 4 currencies
+2024-11-17 15:18:52.835 [                main] INFO  c.t.CurrencyExchangeApplication      - Created account for Luka Beridze with ID: ACC012
+2024-11-17 15:18:52.837 [                main] INFO  com.tananushka.dao.AccountDao        - Account saved: ACC013 at path: accounts\ACC013.json
+2024-11-17 15:18:52.837 [                main] INFO  c.tananushka.service.AccountService  - Created new account: ACC013
+2024-11-17 15:18:52.837 [                main] INFO  c.t.operations.CurrencyOperations    - Registered new account for Giorgi Giorgadze with 4 currencies
+2024-11-17 15:18:52.838 [                main] INFO  c.t.CurrencyExchangeApplication      - Created account for Giorgi Giorgadze with ID: ACC013
+2024-11-17 15:18:52.840 [                main] INFO  com.tananushka.dao.AccountDao        - Account saved: ACC014 at path: accounts\ACC014.json
+2024-11-17 15:18:52.840 [                main] INFO  c.tananushka.service.AccountService  - Created new account: ACC014
+2024-11-17 15:18:52.841 [                main] INFO  c.t.operations.CurrencyOperations    - Registered new account for Sandro Beridze with 4 currencies
+2024-11-17 15:18:52.841 [                main] INFO  c.t.CurrencyExchangeApplication      - Created account for Sandro Beridze with ID: ACC014
+2024-11-17 15:18:52.843 [                main] INFO  com.tananushka.dao.AccountDao        - Account saved: ACC015 at path: accounts\ACC015.json
+2024-11-17 15:18:52.843 [                main] INFO  c.tananushka.service.AccountService  - Created new account: ACC015
+2024-11-17 15:18:52.843 [                main] INFO  c.t.operations.CurrencyOperations    - Registered new account for Tamar Chavchavadze with 4 currencies
+2024-11-17 15:18:52.844 [                main] INFO  c.t.CurrencyExchangeApplication      - Created account for Tamar Chavchavadze with ID: ACC015
+2024-11-17 15:18:52.848 [                main] INFO  com.tananushka.dao.AccountDao        - Account saved: ACC016 at path: accounts\ACC016.json
+2024-11-17 15:18:52.848 [                main] INFO  c.tananushka.service.AccountService  - Created new account: ACC016
+2024-11-17 15:18:52.849 [                main] INFO  c.t.operations.CurrencyOperations    - Registered new account for Mariam Tsiklauri with 4 currencies
+2024-11-17 15:18:52.849 [                main] INFO  c.t.CurrencyExchangeApplication      - Created account for Mariam Tsiklauri with ID: ACC016
+2024-11-17 15:18:52.851 [                main] INFO  com.tananushka.dao.AccountDao        - Account saved: ACC017 at path: accounts\ACC017.json
+2024-11-17 15:18:52.851 [                main] INFO  c.tananushka.service.AccountService  - Created new account: ACC017
+2024-11-17 15:18:52.851 [                main] INFO  c.t.operations.CurrencyOperations    - Registered new account for Nikoloz Giorgadze with 4 currencies
+2024-11-17 15:18:52.851 [                main] INFO  c.t.CurrencyExchangeApplication      - Created account for Nikoloz Giorgadze with ID: ACC017
+2024-11-17 15:18:52.853 [                main] INFO  com.tananushka.dao.AccountDao        - Account saved: ACC018 at path: accounts\ACC018.json
+2024-11-17 15:18:52.853 [                main] INFO  c.tananushka.service.AccountService  - Created new account: ACC018
+2024-11-17 15:18:52.853 [                main] INFO  c.t.operations.CurrencyOperations    - Registered new account for Giorgi Beridze with 4 currencies
+2024-11-17 15:18:52.853 [                main] INFO  c.t.CurrencyExchangeApplication      - Created account for Giorgi Beridze with ID: ACC018
+2024-11-17 15:18:52.855 [                main] INFO  com.tananushka.dao.AccountDao        - Account saved: ACC019 at path: accounts\ACC019.json
+2024-11-17 15:18:52.855 [                main] INFO  c.tananushka.service.AccountService  - Created new account: ACC019
+2024-11-17 15:18:52.856 [                main] INFO  c.t.operations.CurrencyOperations    - Registered new account for Tamar Maisuradze with 4 currencies
+2024-11-17 15:18:52.856 [                main] INFO  c.t.CurrencyExchangeApplication      - Created account for Tamar Maisuradze with ID: ACC019
+2024-11-17 15:18:52.858 [                main] INFO  com.tananushka.dao.AccountDao        - Account saved: ACC020 at path: accounts\ACC020.json
+2024-11-17 15:18:52.858 [                main] INFO  c.tananushka.service.AccountService  - Created new account: ACC020
+2024-11-17 15:18:52.858 [                main] INFO  c.t.operations.CurrencyOperations    - Registered new account for Giorgi Lomidze with 4 currencies
+2024-11-17 15:18:52.858 [                main] INFO  c.t.CurrencyExchangeApplication      - Created account for Giorgi Lomidze with ID: ACC020
+2024-11-17 15:18:52.859 [                main] INFO  c.t.CurrencyExchangeApplication      - Test accounts created successfully
+2024-11-17 15:18:52.859 [                main] INFO  c.t.CurrencyExchangeApplication      - Starting concurrent exchange operations...
+2024-11-17 15:18:52.868 [.commonPool-worker-1] INFO  c.t.CurrencyExchangeApplication      - Exchanged 903 EUR to GBP for account ACC016
+2024-11-17 15:18:52.868 [.commonPool-worker-2] INFO  c.t.CurrencyExchangeApplication      - Exchanged 497 USD to EUR for account ACC001
+2024-11-17 15:18:52.869 [.commonPool-worker-1] INFO  c.t.CurrencyExchangeApplication      - Exchanged 361 GBP to EUR for account ACC020
+2024-11-17 15:18:52.869 [.commonPool-worker-2] INFO  c.t.CurrencyExchangeApplication      - Exchanged 570 USD to EUR for account ACC020
+2024-11-17 15:18:52.870 [.commonPool-worker-2] INFO  c.t.CurrencyExchangeApplication      - Exchanged 785 GBP to EUR for account ACC001
+2024-11-17 15:18:52.870 [.commonPool-worker-1] INFO  c.t.CurrencyExchangeApplication      - Exchanged 671 GEL to EUR for account ACC012
+2024-11-17 15:18:52.870 [.commonPool-worker-2] INFO  c.t.CurrencyExchangeApplication      - Exchanged 348 EUR to GEL for account ACC015
+2024-11-17 15:18:52.870 [.commonPool-worker-1] INFO  c.t.CurrencyExchangeApplication      - Exchanged 172 GBP to EUR for account ACC001
+2024-11-17 15:18:52.870 [.commonPool-worker-2] INFO  c.t.CurrencyExchangeApplication      - Exchanged 201 USD to EUR for account ACC005
+2024-11-17 15:18:52.871 [.commonPool-worker-1] INFO  c.t.CurrencyExchangeApplication      - Exchanged 820 EUR to GBP for account ACC018
+2024-11-17 15:18:52.871 [.commonPool-worker-2] INFO  c.t.CurrencyExchangeApplication      - Exchanged 872 EUR to GBP for account ACC006
+2024-11-17 15:18:52.871 [.commonPool-worker-1] INFO  c.t.CurrencyExchangeApplication      - Exchanged 574 GEL to EUR for account ACC003
+2024-11-17 15:18:52.871 [.commonPool-worker-2] INFO  c.t.CurrencyExchangeApplication      - Exchanged 589 USD to GBP for account ACC003
+2024-11-17 15:18:52.871 [.commonPool-worker-1] INFO  c.t.CurrencyExchangeApplication      - Exchanged 329 USD to GBP for account ACC008
+2024-11-17 15:18:52.871 [.commonPool-worker-2] INFO  c.t.CurrencyExchangeApplication      - Exchanged 1057 USD to GBP for account ACC004
+2024-11-17 15:18:52.872 [.commonPool-worker-2] INFO  c.t.CurrencyExchangeApplication      - Exchanged 461 GEL to USD for account ACC011
+2024-11-17 15:18:52.872 [.commonPool-worker-1] INFO  c.t.CurrencyExchangeApplication      - Exchanged 1064 EUR to USD for account ACC016
+2024-11-17 15:18:52.872 [.commonPool-worker-2] INFO  c.t.CurrencyExchangeApplication      - Exchanged 429 GBP to GEL for account ACC004
+2024-11-17 15:18:52.872 [.commonPool-worker-1] INFO  c.t.CurrencyExchangeApplication      - Exchanged 575 USD to EUR for account ACC017
+2024-11-17 15:18:52.872 [.commonPool-worker-1] INFO  c.t.CurrencyExchangeApplication      - Exchanged 866 USD to EUR for account ACC012
+2024-11-17 15:18:52.872 [.commonPool-worker-2] INFO  c.t.CurrencyExchangeApplication      - Exchanged 822 EUR to GBP for account ACC011
+2024-11-17 15:18:52.872 [.commonPool-worker-3] INFO  c.t.CurrencyExchangeApplication      - Exchanged 116 GEL to USD for account ACC010
+2024-11-17 15:18:52.873 [.commonPool-worker-2] INFO  c.t.CurrencyExchangeApplication      - Exchanged 722 USD to EUR for account ACC003
+2024-11-17 15:18:52.873 [.commonPool-worker-1] INFO  c.t.CurrencyExchangeApplication      - Exchanged 698 EUR to USD for account ACC013
+2024-11-17 15:18:52.873 [.commonPool-worker-3] INFO  c.t.CurrencyExchangeApplication      - Exchanged 948 USD to EUR for account ACC012
+2024-11-17 15:18:52.874 [.commonPool-worker-1] INFO  c.t.CurrencyExchangeApplication      - Exchanged 518 GBP to GEL for account ACC007
+2024-11-17 15:18:52.873 [.commonPool-worker-2] INFO  c.t.CurrencyExchangeApplication      - Exchanged 1087 USD to EUR for account ACC019
+2024-11-17 15:18:52.874 [.commonPool-worker-3] INFO  c.t.CurrencyExchangeApplication      - Exchanged 224 GEL to GBP for account ACC004
+2024-11-17 15:18:52.874 [.commonPool-worker-2] INFO  c.t.CurrencyExchangeApplication      - Exchanged 804 EUR to GBP for account ACC013
+2024-11-17 15:18:52.874 [.commonPool-worker-1] INFO  c.t.CurrencyExchangeApplication      - Exchanged 1048 USD to GBP for account ACC004
+2024-11-17 15:18:52.874 [.commonPool-worker-2] INFO  c.t.CurrencyExchangeApplication      - Exchanged 695 USD to GBP for account ACC009
+2024-11-17 15:18:52.874 [.commonPool-worker-3] INFO  c.t.CurrencyExchangeApplication      - Exchanged 675 USD to EUR for account ACC013
+2024-11-17 15:18:52.874 [.commonPool-worker-1] INFO  c.t.CurrencyExchangeApplication      - Exchanged 749 USD to GEL for account ACC018
+2024-11-17 15:18:52.874 [.commonPool-worker-2] INFO  c.t.CurrencyExchangeApplication      - Exchanged 703 GEL to USD for account ACC018
+2024-11-17 15:18:52.876 [.commonPool-worker-2] INFO  c.t.CurrencyExchangeApplication      - All exchange operations completed
+2024-11-17 15:18:52.878 [                main] INFO  c.t.CurrencyExchangeApplication      - Starting single-account concurrent exchange operations test...
+2024-11-17 15:18:52.880 [.commonPool-worker-2] INFO  c.t.CurrencyExchangeApplication      - Exchanged 100.00 USD to EUR for account ACC001
+2024-11-17 15:18:52.880 [.commonPool-worker-4] INFO  c.t.CurrencyExchangeApplication      - Exchanged 100.00 EUR to GBP for account ACC001
+2024-11-17 15:18:52.881 [.commonPool-worker-2] INFO  c.t.CurrencyExchangeApplication      - Exchanged 100.00 GEL to USD for account ACC001
+2024-11-17 15:18:52.881 [.commonPool-worker-4] INFO  c.t.CurrencyExchangeApplication      - Exchanged 100.00 EUR to GBP for account ACC001
+2024-11-17 15:18:52.881 [.commonPool-worker-2] INFO  c.t.CurrencyExchangeApplication      - Exchanged 100.00 GBP to GEL for account ACC001
+2024-11-17 15:18:52.880 [.commonPool-worker-1] INFO  c.t.CurrencyExchangeApplication      - Exchanged 100.00 GBP to GEL for account ACC001
+2024-11-17 15:18:52.881 [.commonPool-worker-4] INFO  c.t.CurrencyExchangeApplication      - Exchanged 100.00 GEL to USD for account ACC001
+2024-11-17 15:18:52.881 [.commonPool-worker-2] INFO  c.t.CurrencyExchangeApplication      - Exchanged 100.00 USD to EUR for account ACC001
+2024-11-17 15:18:52.881 [.commonPool-worker-1] INFO  c.t.CurrencyExchangeApplication      - Exchanged 100.00 EUR to GBP for account ACC001
+2024-11-17 15:18:52.881 [.commonPool-worker-2] INFO  c.t.CurrencyExchangeApplication      - Exchanged 100.00 GEL to USD for account ACC001
+2024-11-17 15:18:52.881 [.commonPool-worker-4] INFO  c.t.CurrencyExchangeApplication      - Exchanged 100.00 GBP to GEL for account ACC001
+2024-11-17 15:18:52.881 [.commonPool-worker-3] INFO  c.t.CurrencyExchangeApplication      - Exchanged 100.00 USD to EUR for account ACC001
+2024-11-17 15:18:52.882 [.commonPool-worker-1] INFO  c.t.CurrencyExchangeApplication      - Exchanged 100.00 USD to EUR for account ACC001
+2024-11-17 15:18:52.882 [.commonPool-worker-3] INFO  c.t.CurrencyExchangeApplication      - Exchanged 100.00 GEL to USD for account ACC001
+2024-11-17 15:18:52.882 [.commonPool-worker-1] INFO  c.t.CurrencyExchangeApplication      - Exchanged 100.00 USD to EUR for account ACC001
+2024-11-17 15:18:52.882 [.commonPool-worker-3] INFO  c.t.CurrencyExchangeApplication      - Exchanged 100.00 EUR to GBP for account ACC001
+2024-11-17 15:18:52.882 [.commonPool-worker-2] INFO  c.t.CurrencyExchangeApplication      - Exchanged 100.00 EUR to GBP for account ACC001
+2024-11-17 15:18:52.882 [.commonPool-worker-4] INFO  c.t.CurrencyExchangeApplication      - Exchanged 100.00 GBP to GEL for account ACC001
+2024-11-17 15:18:52.882 [.commonPool-worker-1] INFO  c.t.CurrencyExchangeApplication      - Exchanged 100.00 GBP to GEL for account ACC001
+2024-11-17 15:18:52.882 [.commonPool-worker-3] INFO  c.t.CurrencyExchangeApplication      - Exchanged 100.00 GEL to USD for account ACC001
+2024-11-17 15:18:52.882 [.commonPool-worker-2] INFO  c.t.CurrencyExchangeApplication      - Exchanged 100.00 USD to EUR for account ACC001
+2024-11-17 15:18:52.882 [.commonPool-worker-4] INFO  c.t.CurrencyExchangeApplication      - Exchanged 100.00 EUR to GBP for account ACC001
+2024-11-17 15:18:52.882 [.commonPool-worker-1] INFO  c.t.CurrencyExchangeApplication      - Exchanged 100.00 GBP to GEL for account ACC001
+2024-11-17 15:18:52.883 [.commonPool-worker-2] INFO  c.t.CurrencyExchangeApplication      - Exchanged 100.00 USD to EUR for account ACC001
+2024-11-17 15:18:52.883 [.commonPool-worker-3] INFO  c.t.CurrencyExchangeApplication      - Exchanged 100.00 GEL to USD for account ACC001
+2024-11-17 15:18:52.883 [.commonPool-worker-1] INFO  c.t.CurrencyExchangeApplication      - Exchanged 100.00 GBP to GEL for account ACC001
+2024-11-17 15:18:52.883 [.commonPool-worker-2] INFO  c.t.CurrencyExchangeApplication      - Exchanged 100.00 GEL to USD for account ACC001
+2024-11-17 15:18:52.883 [.commonPool-worker-1] INFO  c.t.CurrencyExchangeApplication      - Exchanged 100.00 EUR to GBP for account ACC001
+2024-11-17 15:18:52.883 [.commonPool-worker-4] INFO  c.t.CurrencyExchangeApplication      - Exchanged 100.00 EUR to GBP for account ACC001
+2024-11-17 15:18:52.883 [.commonPool-worker-2] INFO  c.t.CurrencyExchangeApplication      - Exchanged 100.00 GBP to GEL for account ACC001
+2024-11-17 15:18:52.883 [.commonPool-worker-1] INFO  c.t.CurrencyExchangeApplication      - Exchanged 100.00 GEL to USD for account ACC001
+2024-11-17 15:18:52.883 [.commonPool-worker-4] INFO  c.t.CurrencyExchangeApplication      - Exchanged 100.00 USD to EUR for account ACC001
+2024-11-17 15:18:52.883 [.commonPool-worker-3] INFO  c.t.CurrencyExchangeApplication      - Exchanged 100.00 USD to EUR for account ACC001
+2024-11-17 15:18:52.883 [.commonPool-worker-2] INFO  c.t.CurrencyExchangeApplication      - Exchanged 100.00 EUR to GBP for account ACC001
+2024-11-17 15:18:52.883 [.commonPool-worker-1] INFO  c.t.CurrencyExchangeApplication      - Exchanged 100.00 GBP to GEL for account ACC001
+2024-11-17 15:18:52.884 [.commonPool-worker-2] INFO  c.t.CurrencyExchangeApplication      - Exchanged 100.00 GBP to GEL for account ACC001
+2024-11-17 15:18:52.884 [.commonPool-worker-1] INFO  c.t.CurrencyExchangeApplication      - Exchanged 100.00 GEL to USD for account ACC001
+2024-11-17 15:18:52.884 [.commonPool-worker-2] INFO  c.t.CurrencyExchangeApplication      - Exchanged 100.00 USD to EUR for account ACC001
+2024-11-17 15:18:52.883 [.commonPool-worker-4] INFO  c.t.CurrencyExchangeApplication      - Exchanged 100.00 GEL to USD for account ACC001
+2024-11-17 15:18:52.883 [.commonPool-worker-3] INFO  c.t.CurrencyExchangeApplication      - Exchanged 100.00 USD to EUR for account ACC001
+2024-11-17 15:18:52.884 [.commonPool-worker-4] INFO  c.t.CurrencyExchangeApplication      - Exchanged 100.00 USD to EUR for account ACC001
+2024-11-17 15:18:52.884 [.commonPool-worker-1] INFO  c.t.CurrencyExchangeApplication      - Exchanged 100.00 EUR to GBP for account ACC001
+2024-11-17 15:18:52.884 [.commonPool-worker-3] INFO  c.t.CurrencyExchangeApplication      - Exchanged 100.00 EUR to GBP for account ACC001
+2024-11-17 15:18:52.884 [.commonPool-worker-4] INFO  c.t.CurrencyExchangeApplication      - Exchanged 100.00 GBP to GEL for account ACC001
+2024-11-17 15:18:52.884 [.commonPool-worker-5] INFO  c.t.CurrencyExchangeApplication      - Exchanged 100.00 EUR to GBP for account ACC001
+2024-11-17 15:18:52.884 [.commonPool-worker-4] INFO  c.t.CurrencyExchangeApplication      - Exchanged 100.00 EUR to GBP for account ACC001
+2024-11-17 15:18:52.884 [.commonPool-worker-5] INFO  c.t.CurrencyExchangeApplication      - Exchanged 100.00 GBP to GEL for account ACC001
+2024-11-17 15:18:52.884 [.commonPool-worker-2] INFO  c.t.CurrencyExchangeApplication      - Exchanged 100.00 GBP to GEL for account ACC001
+2024-11-17 15:18:52.884 [.commonPool-worker-1] INFO  c.t.CurrencyExchangeApplication      - Exchanged 100.00 GEL to USD for account ACC001
+2024-11-17 15:18:52.884 [.commonPool-worker-3] INFO  c.t.CurrencyExchangeApplication      - Exchanged 100.00 USD to EUR for account ACC001
+2024-11-17 15:18:52.884 [.commonPool-worker-1] INFO  c.t.CurrencyExchangeApplication      - Exchanged 100.00 GBP to GEL for account ACC001
+2024-11-17 15:18:52.884 [.commonPool-worker-4] INFO  c.t.CurrencyExchangeApplication      - Exchanged 100.00 GEL to USD for account ACC001
+2024-11-17 15:18:52.884 [.commonPool-worker-3] INFO  c.t.CurrencyExchangeApplication      - Exchanged 100.00 GEL to USD for account ACC001
+2024-11-17 15:18:52.884 [.commonPool-worker-5] INFO  c.t.CurrencyExchangeApplication      - Exchanged 100.00 USD to EUR for account ACC001
+2024-11-17 15:18:52.884 [.commonPool-worker-2] INFO  c.t.CurrencyExchangeApplication      - Exchanged 100.00 EUR to GBP for account ACC001
+2024-11-17 15:18:52.884 [.commonPool-worker-1] INFO  c.t.CurrencyExchangeApplication      - Exchanged 100.00 USD to EUR for account ACC001
+2024-11-17 15:18:52.886 [.commonPool-worker-5] INFO  c.t.CurrencyExchangeApplication      - Exchanged 100.00 GEL to USD for account ACC001
+2024-11-17 15:18:52.886 [.commonPool-worker-2] INFO  c.t.CurrencyExchangeApplication      - Exchanged 100.00 USD to EUR for account ACC001
+2024-11-17 15:18:52.886 [.commonPool-worker-1] INFO  c.t.CurrencyExchangeApplication      - Exchanged 100.00 EUR to GBP for account ACC001
+2024-11-17 15:18:52.886 [.commonPool-worker-5] INFO  c.t.CurrencyExchangeApplication      - Exchanged 100.00 GBP to GEL for account ACC001
+2024-11-17 15:18:52.886 [.commonPool-worker-2] INFO  c.t.CurrencyExchangeApplication      - Exchanged 100.00 GEL to USD for account ACC001
+2024-11-17 15:18:52.884 [.commonPool-worker-4] INFO  c.t.CurrencyExchangeApplication      - Exchanged 100.00 EUR to GBP for account ACC001
+2024-11-17 15:18:52.884 [.commonPool-worker-3] INFO  c.t.CurrencyExchangeApplication      - Exchanged 100.00 GBP to GEL for account ACC001
+2024-11-17 15:18:52.886 [.commonPool-worker-5] INFO  c.t.CurrencyExchangeApplication      - Exchanged 100.00 EUR to GBP for account ACC001
+2024-11-17 15:18:52.886 [.commonPool-worker-1] INFO  c.t.CurrencyExchangeApplication      - Exchanged 100.00 USD to EUR for account ACC001
+2024-11-17 15:18:52.886 [.commonPool-worker-6] INFO  c.t.CurrencyExchangeApplication      - Exchanged 100.00 GEL to USD for account ACC001
+2024-11-17 15:18:52.888 [.commonPool-worker-5] INFO  c.t.CurrencyExchangeApplication      - Exchanged 100.00 EUR to GBP for account ACC001
+2024-11-17 15:18:52.888 [.commonPool-worker-1] INFO  c.t.CurrencyExchangeApplication      - Exchanged 100.00 GBP to GEL for account ACC001
+2024-11-17 15:18:52.888 [.commonPool-worker-6] INFO  c.t.CurrencyExchangeApplication      - Exchanged 100.00 GEL to USD for account ACC001
+2024-11-17 15:18:52.887 [.commonPool-worker-4] INFO  c.t.CurrencyExchangeApplication      - Exchanged 100.00 GEL to USD for account ACC001
+2024-11-17 15:18:52.888 [.commonPool-worker-1] INFO  c.t.CurrencyExchangeApplication      - Exchanged 100.00 EUR to GBP for account ACC001
+2024-11-17 15:18:52.888 [.commonPool-worker-4] INFO  c.t.CurrencyExchangeApplication      - Exchanged 100.00 GEL to USD for account ACC001
+2024-11-17 15:18:52.887 [.commonPool-worker-2] INFO  c.t.CurrencyExchangeApplication      - Exchanged 100.00 GBP to GEL for account ACC001
+2024-11-17 15:18:52.888 [.commonPool-worker-4] INFO  c.t.CurrencyExchangeApplication      - Exchanged 100.00 EUR to GBP for account ACC001
+2024-11-17 15:18:52.888 [.commonPool-worker-2] INFO  c.t.CurrencyExchangeApplication      - Exchanged 100.00 GEL to USD for account ACC001
+2024-11-17 15:18:52.887 [.commonPool-worker-3] INFO  c.t.CurrencyExchangeApplication      - Exchanged 100.00 USD to EUR for account ACC001
+2024-11-17 15:18:52.888 [.commonPool-worker-5] INFO  c.t.CurrencyExchangeApplication      - Exchanged 100.00 USD to EUR for account ACC001
+2024-11-17 15:18:52.889 [.commonPool-worker-5] INFO  c.t.CurrencyExchangeApplication      - Exchanged 100.00 GEL to USD for account ACC001
+2024-11-17 15:18:52.888 [.commonPool-worker-6] INFO  c.t.CurrencyExchangeApplication      - Exchanged 100.00 GBP to GEL for account ACC001
+2024-11-17 15:18:52.888 [.commonPool-worker-1] INFO  c.t.CurrencyExchangeApplication      - Exchanged 100.00 USD to EUR for account ACC001
+2024-11-17 15:18:52.889 [.commonPool-worker-4] INFO  c.t.CurrencyExchangeApplication      - Exchanged 100.00 USD to EUR for account ACC001
+2024-11-17 15:18:52.889 [.commonPool-worker-4] INFO  c.t.CurrencyExchangeApplication      - Exchanged 100.00 GEL to USD for account ACC001
+2024-11-17 15:18:52.889 [.commonPool-worker-2] INFO  c.t.CurrencyExchangeApplication      - Exchanged 100.00 EUR to GBP for account ACC001
+2024-11-17 15:18:52.889 [.commonPool-worker-3] INFO  c.t.CurrencyExchangeApplication      - Exchanged 100.00 GBP to GEL for account ACC001
+2024-11-17 15:18:52.889 [.commonPool-worker-5] INFO  c.t.CurrencyExchangeApplication      - Exchanged 100.00 USD to EUR for account ACC001
+2024-11-17 15:18:52.890 [.commonPool-worker-3] INFO  c.t.CurrencyExchangeApplication      - Exchanged 100.00 GBP to GEL for account ACC001
+2024-11-17 15:18:52.890 [.commonPool-worker-5] INFO  c.t.CurrencyExchangeApplication      - Exchanged 100.00 GEL to USD for account ACC001
+2024-11-17 15:18:52.890 [.commonPool-worker-3] INFO  c.t.CurrencyExchangeApplication      - Exchanged 100.00 USD to EUR for account ACC001
+2024-11-17 15:18:52.890 [.commonPool-worker-5] INFO  c.t.CurrencyExchangeApplication      - Exchanged 100.00 EUR to GBP for account ACC001
+2024-11-17 15:18:52.891 [.commonPool-worker-5] INFO  c.t.CurrencyExchangeApplication      - Exchanged 100.00 GBP to GEL for account ACC001
+2024-11-17 15:18:52.891 [.commonPool-worker-5] INFO  c.t.CurrencyExchangeApplication      - Exchanged 100.00 USD to EUR for account ACC001
+2024-11-17 15:18:52.891 [.commonPool-worker-5] INFO  c.t.CurrencyExchangeApplication      - Exchanged 100.00 EUR to GBP for account ACC001
+2024-11-17 15:18:52.891 [.commonPool-worker-5] INFO  c.t.CurrencyExchangeApplication      - Exchanged 100.00 GBP to GEL for account ACC001
+2024-11-17 15:18:52.891 [.commonPool-worker-5] INFO  c.t.CurrencyExchangeApplication      - Exchanged 100.00 GEL to USD for account ACC001
+2024-11-17 15:18:52.889 [.commonPool-worker-6] INFO  c.t.CurrencyExchangeApplication      - Exchanged 100.00 EUR to GBP for account ACC001
+2024-11-17 15:18:52.888 [.commonPool-worker-7] INFO  c.t.CurrencyExchangeApplication      - Exchanged 100.00 GBP to GEL for account ACC001
+2024-11-17 15:18:52.889 [.commonPool-worker-1] INFO  c.t.CurrencyExchangeApplication      - Exchanged 100.00 GBP to GEL for account ACC001
+2024-11-17 15:18:52.889 [.commonPool-worker-4] INFO  c.t.CurrencyExchangeApplication      - Exchanged 100.00 USD to EUR for account ACC001
+2024-11-17 15:18:52.890 [.commonPool-worker-2] INFO  c.t.CurrencyExchangeApplication      - Exchanged 100.00 EUR to GBP for account ACC001
+2024-11-17 15:18:52.891 [.commonPool-worker-3] INFO  c.t.CurrencyExchangeApplication      - Exchanged 100.00 GEL to USD for account ACC001
+2024-11-17 15:18:52.909 [.commonPool-worker-3] INFO  c.t.CurrencyExchangeApplication      - Verifying final balances for account ACC001...
+2024-11-17 15:18:52.974 [.commonPool-worker-3] INFO  c.t.CurrencyExchangeApplication      - Final balance for ACC001 EUR: 7127 after 25 operations
+2024-11-17 15:18:52.976 [.commonPool-worker-3] INFO  c.t.CurrencyExchangeApplication      - Final balance for ACC001 GBP: 1200 after 25 operations
+2024-11-17 15:18:52.978 [.commonPool-worker-3] INFO  c.t.CurrencyExchangeApplication      - Final balance for ACC001 USD: 8946 after 25 operations
+2024-11-17 15:18:52.982 [.commonPool-worker-3] INFO  c.t.CurrencyExchangeApplication      - Final balance for ACC001 GEL: 24198 after 25 operations
+2024-11-17 15:18:52.982 [                main] INFO  c.t.CurrencyExchangeApplication      - Single-account concurrent exchange operations completed
+2024-11-17 15:18:52.982 [                main] INFO  c.t.CurrencyExchangeApplication      - Performing bulk transfer operations...
+2024-11-17 15:18:52.983 [     pool-2-thread-1] INFO  com.tananushka.dao.AccountDao        - Account saved: ACC016 at path: accounts\ACC016.json
+2024-11-17 15:18:52.984 [     pool-2-thread-1] INFO  c.tananushka.service.AccountService  - Exchanged 903 EUR to 776.58 GBP for account ACC016
+2024-11-17 15:18:52.987 [     pool-2-thread-5] INFO  com.tananushka.dao.AccountDao        - Account saved: ACC012 at path: accounts\ACC012.json
+2024-11-17 15:18:52.987 [     pool-2-thread-5] INFO  c.tananushka.service.AccountService  - Exchanged 671 GEL to 215.064223 EUR for account ACC012
+2024-11-17 15:18:52.990 [     pool-2-thread-4] INFO  com.tananushka.dao.AccountDao        - Account saved: ACC020 at path: accounts\ACC020.json
+2024-11-17 15:18:52.991 [     pool-2-thread-4] INFO  c.tananushka.service.AccountService  - Exchanged 361 GBP to 419.767551 EUR for account ACC020
+2024-11-17 15:18:52.998 [     pool-2-thread-3] INFO  com.tananushka.dao.AccountDao        - Account saved: ACC020 at path: accounts\ACC020.json
+2024-11-17 15:18:52.999 [     pool-2-thread-3] INFO  c.tananushka.service.AccountService  - Exchanged 570 USD to 484.50 EUR for account ACC020
+2024-11-17 15:18:53.002 [     pool-2-thread-3] INFO  com.tananushka.dao.AccountDao        - Account saved: ACC005 at path: accounts\ACC005.json
+2024-11-17 15:18:53.002 [     pool-2-thread-3] INFO  c.tananushka.service.AccountService  - Exchanged 201 USD to 170.85 EUR for account ACC005
+2024-11-17 15:18:53.004 [     pool-2-thread-2] INFO  com.tananushka.dao.AccountDao        - Account saved: ACC001 at path: accounts\ACC001.json
+2024-11-17 15:18:53.004 [     pool-2-thread-2] INFO  c.tananushka.service.AccountService  - Exchanged 497 USD to 422.45 EUR for account ACC001
+2024-11-17 15:18:53.009 [     pool-2-thread-3] INFO  com.tananushka.dao.AccountDao        - Account saved: ACC018 at path: accounts\ACC018.json
+2024-11-17 15:18:53.010 [     pool-2-thread-3] INFO  c.tananushka.service.AccountService  - Exchanged 820 EUR to 705.20 GBP for account ACC018
+2024-11-17 15:18:53.012 [     pool-2-thread-4] INFO  com.tananushka.dao.AccountDao        - Account saved: ACC001 at path: accounts\ACC001.json
+2024-11-17 15:18:53.012 [     pool-2-thread-4] INFO  c.tananushka.service.AccountService  - Exchanged 172 GBP to 200.000052 EUR for account ACC001
+2024-11-17 15:18:53.015 [     pool-2-thread-5] INFO  com.tananushka.dao.AccountDao        - Account saved: ACC015 at path: accounts\ACC015.json
+2024-11-17 15:18:53.016 [     pool-2-thread-5] INFO  c.tananushka.service.AccountService  - Exchanged 348 EUR to 1085.76 GEL for account ACC015
+2024-11-17 15:18:53.017 [                main] ERROR c.t.operations.CurrencyOperations    - Fund transfer failed: Exchange rate not found for pair: GBP-GBP
+2024-11-17 15:18:53.018 [                main] ERROR c.t.CurrencyExchangeApplication      - Insufficient funds: Fund transfer failed: Exchange rate not found for pair: GBP-GBP
+2024-11-17 15:18:53.021 [     pool-2-thread-1] INFO  com.tananushka.dao.AccountDao        - Account saved: ACC001 at path: accounts\ACC001.json
+2024-11-17 15:18:53.021 [     pool-2-thread-1] INFO  c.tananushka.service.AccountService  - Exchanged 785 GBP to 912.790935 EUR for account ACC001
+2024-11-17 15:18:53.022 [                main] ERROR c.t.operations.CurrencyOperations    - Fund transfer failed: Exchange rate not found for pair: GBP-GBP
+2024-11-17 15:18:53.022 [                main] ERROR c.t.CurrencyExchangeApplication      - Insufficient funds: Fund transfer failed: Exchange rate not found for pair: GBP-GBP
+2024-11-17 15:18:53.024 [     pool-2-thread-5] INFO  com.tananushka.dao.AccountDao        - Account saved: ACC008 at path: accounts\ACC008.json
+2024-11-17 15:18:53.026 [     pool-2-thread-5] INFO  c.tananushka.service.AccountService  - Exchanged 329 USD to 240.17 GBP for account ACC008
+2024-11-17 15:18:53.029 [     pool-2-thread-4] INFO  com.tananushka.dao.AccountDao        - Account saved: ACC003 at path: accounts\ACC003.json
+2024-11-17 15:18:53.029 [     pool-2-thread-4] INFO  c.tananushka.service.AccountService  - Exchanged 589 USD to 429.97 GBP for account ACC003
+2024-11-17 15:18:53.031 [     pool-2-thread-3] INFO  com.tananushka.dao.AccountDao        - Account saved: ACC003 at path: accounts\ACC003.json
+2024-11-17 15:18:53.032 [     pool-2-thread-3] INFO  c.tananushka.service.AccountService  - Exchanged 574 GEL to 183.974462 EUR for account ACC003
+2024-11-17 15:18:53.035 [     pool-2-thread-3] INFO  com.tananushka.dao.AccountDao        - Account saved: ACC004 at path: accounts\ACC004.json
+2024-11-17 15:18:53.036 [     pool-2-thread-3] INFO  c.tananushka.service.AccountService  - Exchanged 429 GBP to 1557.27 GEL for account ACC004
+2024-11-17 15:18:53.037 [     pool-2-thread-2] INFO  com.tananushka.dao.AccountDao        - Account saved: ACC006 at path: accounts\ACC006.json
+2024-11-17 15:18:53.038 [     pool-2-thread-2] INFO  c.tananushka.service.AccountService  - Exchanged 872 EUR to 749.92 GBP for account ACC006
+2024-11-17 15:18:53.040 [     pool-2-thread-3] INFO  com.tananushka.dao.AccountDao        - Account saved: ACC017 at path: accounts\ACC017.json
+2024-11-17 15:18:53.040 [     pool-2-thread-3] INFO  c.tananushka.service.AccountService  - Exchanged 575 USD to 488.75 EUR for account ACC017
+2024-11-17 15:18:53.043 [     pool-2-thread-4] INFO  com.tananushka.dao.AccountDao        - Account saved: ACC011 at path: accounts\ACC011.json
+2024-11-17 15:18:53.044 [     pool-2-thread-4] INFO  c.tananushka.service.AccountService  - Exchanged 461 GEL to 173.962038 USD for account ACC011
+2024-11-17 15:18:53.046 [     pool-2-thread-5] INFO  com.tananushka.dao.AccountDao        - Account saved: ACC016 at path: accounts\ACC016.json
+2024-11-17 15:18:53.046 [     pool-2-thread-5] INFO  c.tananushka.service.AccountService  - Exchanged 1064 EUR to 1251.765144 USD for account ACC016
+2024-11-17 15:18:53.049 [     pool-2-thread-5] INFO  com.tananushka.dao.AccountDao        - Account saved: ACC013 at path: accounts\ACC013.json
+2024-11-17 15:18:53.049 [     pool-2-thread-5] INFO  c.tananushka.service.AccountService  - Exchanged 698 EUR to 821.176758 USD for account ACC013
+2024-11-17 15:18:53.050 [                main] ERROR c.t.operations.CurrencyOperations    - Fund transfer failed: Exchange rate not found for pair: GBP-GBP
+2024-11-17 15:18:53.050 [                main] ERROR c.t.CurrencyExchangeApplication      - Insufficient funds: Fund transfer failed: Exchange rate not found for pair: GBP-GBP
+2024-11-17 15:18:53.052 [     pool-2-thread-1] INFO  com.tananushka.dao.AccountDao        - Account saved: ACC004 at path: accounts\ACC004.json
+2024-11-17 15:18:53.052 [     pool-2-thread-1] INFO  c.tananushka.service.AccountService  - Exchanged 1057 USD to 771.61 GBP for account ACC004
+2024-11-17 15:18:53.053 [     pool-2-thread-5] ERROR c.t.operations.CurrencyOperations    - Exchange operation failed for account ACC003
+2024-11-17 15:18:53.055 [     pool-2-thread-4] INFO  com.tananushka.dao.AccountDao        - Account saved: ACC010 at path: accounts\ACC010.json
+2024-11-17 15:18:53.055 [     pool-2-thread-4] INFO  c.tananushka.service.AccountService  - Exchanged 116 GEL to 43.773528 USD for account ACC010
+2024-11-17 15:18:53.057 [     pool-2-thread-3] INFO  com.tananushka.dao.AccountDao        - Account saved: ACC012 at path: accounts\ACC012.json
+2024-11-17 15:18:53.057 [     pool-2-thread-3] INFO  c.tananushka.service.AccountService  - Exchanged 866 USD to 736.10 EUR for account ACC012
+2024-11-17 15:18:53.059 [     pool-2-thread-2] INFO  com.tananushka.dao.AccountDao        - Account saved: ACC011 at path: accounts\ACC011.json
+2024-11-17 15:18:53.060 [     pool-2-thread-2] INFO  c.tananushka.service.AccountService  - Exchanged 822 EUR to 706.92 GBP for account ACC011
+2024-11-17 15:18:53.063 [     pool-2-thread-2] INFO  com.tananushka.dao.AccountDao        - Account saved: ACC004 at path: accounts\ACC004.json
+2024-11-17 15:18:53.064 [     pool-2-thread-2] INFO  c.tananushka.service.AccountService  - Exchanged 1048 USD to 765.04 GBP for account ACC004
+2024-11-17 15:18:53.067 [     pool-2-thread-2] INFO  com.tananushka.dao.AccountDao        - Account saved: ACC013 at path: accounts\ACC013.json
+2024-11-17 15:18:53.070 [     pool-2-thread-2] INFO  c.tananushka.service.AccountService  - Exchanged 804 EUR to 691.44 GBP for account ACC013
+2024-11-17 15:18:53.075 [     pool-2-thread-2] INFO  com.tananushka.dao.AccountDao        - Account saved: ACC013 at path: accounts\ACC013.json
+2024-11-17 15:18:53.076 [     pool-2-thread-2] INFO  c.tananushka.service.AccountService  - Exchanged 675 USD to 573.75 EUR for account ACC013
+2024-11-17 15:18:53.080 [     pool-2-thread-3] INFO  com.tananushka.dao.AccountDao        - Account saved: ACC004 at path: accounts\ACC004.json
+2024-11-17 15:18:53.080 [     pool-2-thread-3] INFO  c.tananushka.service.AccountService  - Exchanged 224 GEL to 61.707968 GBP for account ACC004
+2024-11-17 15:18:53.082 [     pool-2-thread-3] INFO  com.tananushka.dao.AccountDao        - Account saved: ACC018 at path: accounts\ACC018.json
+2024-11-17 15:18:53.082 [     pool-2-thread-3] INFO  c.tananushka.service.AccountService  - Exchanged 749 USD to 1984.85 GEL for account ACC018
+2024-11-17 15:18:53.084 [     pool-2-thread-3] INFO  com.tananushka.dao.AccountDao        - Account saved: ACC018 at path: accounts\ACC018.json
+2024-11-17 15:18:53.084 [     pool-2-thread-3] INFO  c.tananushka.service.AccountService  - Exchanged 703 GEL to 265.282674 USD for account ACC018
+2024-11-17 15:18:53.085 [     pool-2-thread-3] INFO  com.tananushka.dao.AccountDao        - Account saved: ACC001 at path: accounts\ACC001.json
+2024-11-17 15:18:53.085 [     pool-2-thread-3] INFO  c.tananushka.service.AccountService  - Exchanged 100.00 USD to 85.0000 EUR for account ACC001
+2024-11-17 15:18:53.086 [     pool-2-thread-3] INFO  com.tananushka.dao.AccountDao        - Account saved: ACC001 at path: accounts\ACC001.json
+2024-11-17 15:18:53.087 [     pool-2-thread-3] INFO  c.tananushka.service.AccountService  - Exchanged 100.00 EUR to 86.0000 GBP for account ACC001
+2024-11-17 15:18:53.089 [     pool-2-thread-3] INFO  com.tananushka.dao.AccountDao        - Account saved: ACC001 at path: accounts\ACC001.json
+2024-11-17 15:18:53.089 [     pool-2-thread-3] INFO  c.tananushka.service.AccountService  - Exchanged 100.00 GBP to 363.0000 GEL for account ACC001
+2024-11-17 15:18:53.091 [     pool-2-thread-3] INFO  com.tananushka.dao.AccountDao        - Account saved: ACC001 at path: accounts\ACC001.json
+2024-11-17 15:18:53.091 [     pool-2-thread-3] INFO  c.tananushka.service.AccountService  - Exchanged 100.00 GEL to 37.73580000 USD for account ACC001
+2024-11-17 15:18:53.092 [     pool-2-thread-3] INFO  com.tananushka.dao.AccountDao        - Account saved: ACC001 at path: accounts\ACC001.json
+2024-11-17 15:18:53.095 [     pool-2-thread-3] INFO  c.tananushka.service.AccountService  - Exchanged 100.00 EUR to 86.0000 GBP for account ACC001
+2024-11-17 15:18:53.099 [     pool-2-thread-3] INFO  com.tananushka.dao.AccountDao        - Account saved: ACC001 at path: accounts\ACC001.json
+2024-11-17 15:18:53.099 [     pool-2-thread-3] INFO  c.tananushka.service.AccountService  - Exchanged 100.00 GBP to 363.0000 GEL for account ACC001
+2024-11-17 15:18:53.102 [     pool-2-thread-4] INFO  com.tananushka.dao.AccountDao        - Account saved: ACC007 at path: accounts\ACC007.json
+2024-11-17 15:18:53.103 [     pool-2-thread-4] INFO  c.tananushka.service.AccountService  - Exchanged 518 GBP to 1880.34 GEL for account ACC007
+2024-11-17 15:18:53.105 [     pool-2-thread-5] INFO  com.tananushka.dao.AccountDao        - Account saved: ACC019 at path: accounts\ACC019.json
+2024-11-17 15:18:53.105 [     pool-2-thread-5] INFO  c.tananushka.service.AccountService  - Exchanged 1087 USD to 923.95 EUR for account ACC019
+2024-11-17 15:18:53.106 [                main] ERROR c.t.operations.CurrencyOperations    - Fund transfer failed: Exchange rate not found for pair: GEL-GEL
+2024-11-17 15:18:53.106 [                main] ERROR c.t.CurrencyExchangeApplication      - Insufficient funds: Fund transfer failed: Exchange rate not found for pair: GEL-GEL
+2024-11-17 15:18:53.108 [                main] ERROR c.t.operations.CurrencyOperations    - Fund transfer failed: Exchange rate not found for pair: GEL-GEL
+2024-11-17 15:18:53.108 [                main] ERROR c.t.CurrencyExchangeApplication      - Insufficient funds: Fund transfer failed: Exchange rate not found for pair: GEL-GEL
+2024-11-17 15:18:53.110 [     pool-2-thread-1] ERROR c.t.operations.CurrencyOperations    - Exchange operation failed for account ACC012
+2024-11-17 15:18:53.112 [     pool-2-thread-1] INFO  com.tananushka.dao.AccountDao        - Account saved: ACC001 at path: accounts\ACC001.json
+2024-11-17 15:18:53.112 [     pool-2-thread-1] INFO  c.tananushka.service.AccountService  - Exchanged 100.00 EUR to 86.0000 GBP for account ACC001
+2024-11-17 15:18:53.114 [     pool-2-thread-4] INFO  com.tananushka.dao.AccountDao        - Account saved: ACC001 at path: accounts\ACC001.json
+2024-11-17 15:18:53.114 [     pool-2-thread-4] INFO  c.tananushka.service.AccountService  - Exchanged 100.00 USD to 85.0000 EUR for account ACC001
+2024-11-17 15:18:53.117 [     pool-2-thread-3] INFO  com.tananushka.dao.AccountDao        - Account saved: ACC001 at path: accounts\ACC001.json
+2024-11-17 15:18:53.117 [     pool-2-thread-3] INFO  c.tananushka.service.AccountService  - Exchanged 100.00 GEL to 37.73580000 USD for account ACC001
+2024-11-17 15:18:53.121 [     pool-2-thread-2] INFO  com.tananushka.dao.AccountDao        - Account saved: ACC009 at path: accounts\ACC009.json
+2024-11-17 15:18:53.121 [     pool-2-thread-2] INFO  c.tananushka.service.AccountService  - Exchanged 695 USD to 507.35 GBP for account ACC009
+2024-11-17 15:18:53.123 [     pool-2-thread-3] INFO  com.tananushka.dao.AccountDao        - Account saved: ACC001 at path: accounts\ACC001.json
+2024-11-17 15:18:53.124 [     pool-2-thread-3] INFO  c.tananushka.service.AccountService  - Exchanged 100.00 USD to 85.0000 EUR for account ACC001
+2024-11-17 15:18:53.128 [     pool-2-thread-4] INFO  com.tananushka.dao.AccountDao        - Account saved: ACC001 at path: accounts\ACC001.json
+2024-11-17 15:18:53.128 [     pool-2-thread-4] INFO  c.tananushka.service.AccountService  - Exchanged 100.00 GEL to 37.73580000 USD for account ACC001
+2024-11-17 15:18:53.132 [     pool-2-thread-1] INFO  com.tananushka.dao.AccountDao        - Account saved: ACC001 at path: accounts\ACC001.json
+2024-11-17 15:18:53.133 [     pool-2-thread-1] INFO  c.tananushka.service.AccountService  - Exchanged 100.00 USD to 85.0000 EUR for account ACC001
+2024-11-17 15:18:53.134 [     pool-2-thread-5] INFO  com.tananushka.dao.AccountDao        - Account saved: ACC001 at path: accounts\ACC001.json
+2024-11-17 15:18:53.135 [     pool-2-thread-5] INFO  c.tananushka.service.AccountService  - Exchanged 100.00 GBP to 363.0000 GEL for account ACC001
+2024-11-17 15:18:53.137 [                main] ERROR c.t.operations.CurrencyOperations    - Fund transfer failed: Exchange rate not found for pair: USD-USD
+2024-11-17 15:18:53.137 [                main] ERROR c.t.CurrencyExchangeApplication      - Insufficient funds: Fund transfer failed: Exchange rate not found for pair: USD-USD
+2024-11-17 15:18:53.150 [     pool-2-thread-1] INFO  com.tananushka.dao.AccountDao        - Account saved: ACC001 at path: accounts\ACC001.json
+2024-11-17 15:18:53.150 [     pool-2-thread-1] INFO  c.tananushka.service.AccountService  - Exchanged 100.00 USD to 85.0000 EUR for account ACC001
+2024-11-17 15:18:53.154 [     pool-2-thread-4] INFO  com.tananushka.dao.AccountDao        - Account saved: ACC001 at path: accounts\ACC001.json
+2024-11-17 15:18:53.154 [     pool-2-thread-4] INFO  c.tananushka.service.AccountService  - Exchanged 100.00 GEL to 37.73580000 USD for account ACC001
+2024-11-17 15:18:53.156 [     pool-2-thread-3] INFO  com.tananushka.dao.AccountDao        - Account saved: ACC001 at path: accounts\ACC001.json
+2024-11-17 15:18:53.156 [     pool-2-thread-3] INFO  c.tananushka.service.AccountService  - Exchanged 100.00 GBP to 363.0000 GEL for account ACC001
+2024-11-17 15:18:53.158 [     pool-2-thread-3] INFO  com.tananushka.dao.AccountDao        - Account saved: ACC001 at path: accounts\ACC001.json
+2024-11-17 15:18:53.158 [     pool-2-thread-3] INFO  c.tananushka.service.AccountService  - Exchanged 100.00 USD to 85.0000 EUR for account ACC001
+2024-11-17 15:18:53.159 [     pool-2-thread-2] INFO  com.tananushka.dao.AccountDao        - Account saved: ACC001 at path: accounts\ACC001.json
+2024-11-17 15:18:53.159 [     pool-2-thread-2] INFO  c.tananushka.service.AccountService  - Exchanged 100.00 EUR to 86.0000 GBP for account ACC001
+2024-11-17 15:18:53.161 [     pool-2-thread-3] INFO  com.tananushka.dao.AccountDao        - Account saved: ACC001 at path: accounts\ACC001.json
+2024-11-17 15:18:53.161 [     pool-2-thread-3] INFO  c.tananushka.service.AccountService  - Exchanged 100.00 EUR to 86.0000 GBP for account ACC001
+2024-11-17 15:18:53.163 [     pool-2-thread-3] INFO  com.tananushka.dao.AccountDao        - Account saved: ACC001 at path: accounts\ACC001.json
+2024-11-17 15:18:53.163 [     pool-2-thread-3] INFO  c.tananushka.service.AccountService  - Exchanged 100.00 GEL to 37.73580000 USD for account ACC001
+2024-11-17 15:18:53.164 [     pool-2-thread-4] INFO  com.tananushka.dao.AccountDao        - Account saved: ACC001 at path: accounts\ACC001.json
+2024-11-17 15:18:53.164 [     pool-2-thread-4] INFO  c.tananushka.service.AccountService  - Exchanged 100.00 GEL to 37.73580000 USD for account ACC001
+2024-11-17 15:18:53.167 [     pool-2-thread-1] INFO  com.tananushka.dao.AccountDao        - Account saved: ACC001 at path: accounts\ACC001.json
+2024-11-17 15:18:53.167 [     pool-2-thread-1] INFO  c.tananushka.service.AccountService  - Exchanged 100.00 GBP to 363.0000 GEL for account ACC001
+2024-11-17 15:18:53.169 [     pool-2-thread-5] INFO  com.tananushka.dao.AccountDao        - Account saved: ACC001 at path: accounts\ACC001.json
+2024-11-17 15:18:53.169 [     pool-2-thread-5] INFO  c.tananushka.service.AccountService  - Exchanged 100.00 EUR to 86.0000 GBP for account ACC001
+2024-11-17 15:18:53.170 [                main] ERROR c.t.operations.CurrencyOperations    - Fund transfer failed: Exchange rate not found for pair: EUR-EUR
+2024-11-17 15:18:53.170 [                main] ERROR c.t.CurrencyExchangeApplication      - Insufficient funds: Fund transfer failed: Exchange rate not found for pair: EUR-EUR
+2024-11-17 15:18:53.172 [     pool-2-thread-5] INFO  com.tananushka.dao.AccountDao        - Account saved: ACC001 at path: accounts\ACC001.json
+2024-11-17 15:18:53.173 [     pool-2-thread-5] INFO  c.tananushka.service.AccountService  - Exchanged 100.00 GEL to 37.73580000 USD for account ACC001
+2024-11-17 15:18:53.174 [     pool-2-thread-5] INFO  com.tananushka.dao.AccountDao        - Account saved: ACC001 at path: accounts\ACC001.json
+2024-11-17 15:18:53.174 [     pool-2-thread-5] INFO  c.tananushka.service.AccountService  - Exchanged 100.00 USD to 85.0000 EUR for account ACC001
+2024-11-17 15:18:53.176 [     pool-2-thread-1] INFO  com.tananushka.dao.AccountDao        - Account saved: ACC001 at path: accounts\ACC001.json
+2024-11-17 15:18:53.177 [     pool-2-thread-1] INFO  c.tananushka.service.AccountService  - Exchanged 100.00 EUR to 86.0000 GBP for account ACC001
+2024-11-17 15:18:53.178 [     pool-2-thread-4] INFO  com.tananushka.dao.AccountDao        - Account saved: ACC001 at path: accounts\ACC001.json
+2024-11-17 15:18:53.180 [     pool-2-thread-4] INFO  c.tananushka.service.AccountService  - Exchanged 100.00 GBP to 363.0000 GEL for account ACC001
+2024-11-17 15:18:53.183 [     pool-2-thread-3] INFO  com.tananushka.dao.AccountDao        - Account saved: ACC001 at path: accounts\ACC001.json
+2024-11-17 15:18:53.183 [     pool-2-thread-3] INFO  c.tananushka.service.AccountService  - Exchanged 100.00 USD to 85.0000 EUR for account ACC001
+2024-11-17 15:18:53.184 [     pool-2-thread-2] INFO  com.tananushka.dao.AccountDao        - Account saved: ACC001 at path: accounts\ACC001.json
+2024-11-17 15:18:53.184 [     pool-2-thread-2] INFO  c.tananushka.service.AccountService  - Exchanged 100.00 GBP to 363.0000 GEL for account ACC001
+2024-11-17 15:18:53.186 [     pool-2-thread-3] INFO  com.tananushka.dao.AccountDao        - Account saved: ACC001 at path: accounts\ACC001.json
+2024-11-17 15:18:53.186 [     pool-2-thread-3] INFO  c.tananushka.service.AccountService  - Exchanged 100.00 USD to 85.0000 EUR for account ACC001
+2024-11-17 15:18:53.187 [     pool-2-thread-3] INFO  com.tananushka.dao.AccountDao        - Account saved: ACC001 at path: accounts\ACC001.json
+2024-11-17 15:18:53.187 [     pool-2-thread-3] INFO  c.tananushka.service.AccountService  - Exchanged 100.00 GBP to 363.0000 GEL for account ACC001
+2024-11-17 15:18:53.188 [     pool-2-thread-3] INFO  com.tananushka.dao.AccountDao        - Account saved: ACC001 at path: accounts\ACC001.json
+2024-11-17 15:18:53.188 [     pool-2-thread-3] INFO  c.tananushka.service.AccountService  - Exchanged 100.00 GEL to 37.73580000 USD for account ACC001
+2024-11-17 15:18:53.189 [     pool-2-thread-3] INFO  com.tananushka.dao.AccountDao        - Account saved: ACC001 at path: accounts\ACC001.json
+2024-11-17 15:18:53.190 [     pool-2-thread-3] INFO  c.tananushka.service.AccountService  - Exchanged 100.00 USD to 85.0000 EUR for account ACC001
+2024-11-17 15:18:53.193 [     pool-2-thread-3] ERROR c.t.operations.CurrencyOperations    - Exchange operation failed for account ACC001
+2024-11-17 15:18:53.199 [     pool-2-thread-4] INFO  com.tananushka.dao.AccountDao        - Account saved: ACC001 at path: accounts\ACC001.json
+2024-11-17 15:18:53.200 [     pool-2-thread-4] INFO  c.tananushka.service.AccountService  - Exchanged 100.00 GEL to 37.73580000 USD for account ACC001
+2024-11-17 15:18:53.204 [     pool-2-thread-1] ERROR c.t.operations.CurrencyOperations    - Exchange operation failed for account ACC001
+2024-11-17 15:18:53.210 [     pool-2-thread-1] INFO  com.tananushka.dao.AccountDao        - Account saved: ACC001 at path: accounts\ACC001.json
+2024-11-17 15:18:53.210 [     pool-2-thread-1] INFO  c.tananushka.service.AccountService  - Exchanged 100.00 USD to 85.0000 EUR for account ACC001
+2024-11-17 15:18:53.212 [     pool-2-thread-5] INFO  com.tananushka.dao.AccountDao        - Account saved: ACC001 at path: accounts\ACC001.json
+2024-11-17 15:18:53.212 [     pool-2-thread-5] INFO  c.tananushka.service.AccountService  - Exchanged 100.00 EUR to 86.0000 GBP for account ACC001
+2024-11-17 15:18:53.213 [                main] ERROR c.t.operations.CurrencyOperations    - Fund transfer failed: Exchange rate not found for pair: EUR-EUR
+2024-11-17 15:18:53.213 [                main] ERROR c.t.CurrencyExchangeApplication      - Insufficient funds: Fund transfer failed: Exchange rate not found for pair: EUR-EUR
+2024-11-17 15:18:53.214 [     pool-2-thread-5] INFO  com.tananushka.dao.AccountDao        - Account saved: ACC001 at path: accounts\ACC001.json
+2024-11-17 15:18:53.214 [     pool-2-thread-5] INFO  c.tananushka.service.AccountService  - Exchanged 100.00 GBP to 363.0000 GEL for account ACC001
+2024-11-17 15:18:53.216 [     pool-2-thread-1] INFO  com.tananushka.dao.AccountDao        - Account saved: ACC001 at path: accounts\ACC001.json
+2024-11-17 15:18:53.217 [     pool-2-thread-1] INFO  c.tananushka.service.AccountService  - Exchanged 100.00 EUR to 86.0000 GBP for account ACC001
+2024-11-17 15:18:53.218 [     pool-2-thread-4] INFO  com.tananushka.dao.AccountDao        - Account saved: ACC001 at path: accounts\ACC001.json
+2024-11-17 15:18:53.218 [     pool-2-thread-4] INFO  c.tananushka.service.AccountService  - Exchanged 100.00 EUR to 86.0000 GBP for account ACC001
+2024-11-17 15:18:53.220 [     pool-2-thread-4] INFO  com.tananushka.dao.AccountDao        - Account saved: ACC001 at path: accounts\ACC001.json
+2024-11-17 15:18:53.220 [     pool-2-thread-4] INFO  c.tananushka.service.AccountService  - Exchanged 100.00 GBP to 363.0000 GEL for account ACC001
+2024-11-17 15:18:53.221 [     pool-2-thread-4] INFO  com.tananushka.dao.AccountDao        - Account saved: ACC001 at path: accounts\ACC001.json
+2024-11-17 15:18:53.221 [     pool-2-thread-4] INFO  c.tananushka.service.AccountService  - Exchanged 100.00 GEL to 37.73580000 USD for account ACC001
+2024-11-17 15:18:53.222 [     pool-2-thread-4] INFO  com.tananushka.dao.AccountDao        - Account saved: ACC001 at path: accounts\ACC001.json
+2024-11-17 15:18:53.222 [     pool-2-thread-4] INFO  c.tananushka.service.AccountService  - Exchanged 100.00 USD to 85.0000 EUR for account ACC001
+2024-11-17 15:18:53.224 [     pool-2-thread-4] INFO  com.tananushka.dao.AccountDao        - Account saved: ACC001 at path: accounts\ACC001.json
+2024-11-17 15:18:53.224 [     pool-2-thread-4] INFO  c.tananushka.service.AccountService  - Exchanged 100.00 EUR to 86.0000 GBP for account ACC001
+2024-11-17 15:18:53.228 [     pool-2-thread-3] INFO  com.tananushka.dao.AccountDao        - Account saved: ACC001 at path: accounts\ACC001.json
+2024-11-17 15:18:53.228 [     pool-2-thread-3] INFO  c.tananushka.service.AccountService  - Exchanged 100.00 GEL to 37.73580000 USD for account ACC001
+2024-11-17 15:18:53.231 [     pool-2-thread-3] INFO  com.tananushka.dao.AccountDao        - Account saved: ACC001 at path: accounts\ACC001.json
+2024-11-17 15:18:53.231 [     pool-2-thread-3] INFO  c.tananushka.service.AccountService  - Exchanged 100.00 GEL to 37.73580000 USD for account ACC001
+2024-11-17 15:18:53.233 [     pool-2-thread-2] INFO  com.tananushka.dao.AccountDao        - Account saved: ACC001 at path: accounts\ACC001.json
+2024-11-17 15:18:53.233 [     pool-2-thread-2] INFO  c.tananushka.service.AccountService  - Exchanged 100.00 EUR to 86.0000 GBP for account ACC001
+2024-11-17 15:18:53.234 [     pool-2-thread-3] INFO  com.tananushka.dao.AccountDao        - Account saved: ACC001 at path: accounts\ACC001.json
+2024-11-17 15:18:53.235 [     pool-2-thread-3] INFO  c.tananushka.service.AccountService  - Exchanged 100.00 USD to 85.0000 EUR for account ACC001
+2024-11-17 15:18:53.236 [     pool-2-thread-3] INFO  com.tananushka.dao.AccountDao        - Account saved: ACC001 at path: accounts\ACC001.json
+2024-11-17 15:18:53.236 [     pool-2-thread-3] INFO  c.tananushka.service.AccountService  - Exchanged 100.00 GBP to 363.0000 GEL for account ACC001
+2024-11-17 15:18:53.237 [     pool-2-thread-3] INFO  com.tananushka.dao.AccountDao        - Account saved: ACC001 at path: accounts\ACC001.json
+2024-11-17 15:18:53.237 [     pool-2-thread-3] INFO  c.tananushka.service.AccountService  - Exchanged 100.00 GEL to 37.73580000 USD for account ACC001
+2024-11-17 15:18:53.239 [     pool-2-thread-3] INFO  com.tananushka.dao.AccountDao        - Account saved: ACC001 at path: accounts\ACC001.json
+2024-11-17 15:18:53.239 [     pool-2-thread-3] INFO  c.tananushka.service.AccountService  - Exchanged 100.00 USD to 85.0000 EUR for account ACC001
+2024-11-17 15:18:53.241 [     pool-2-thread-4] INFO  com.tananushka.dao.AccountDao        - Account saved: ACC001 at path: accounts\ACC001.json
+2024-11-17 15:18:53.241 [     pool-2-thread-4] INFO  c.tananushka.service.AccountService  - Exchanged 100.00 GBP to 363.0000 GEL for account ACC001
+2024-11-17 15:18:53.242 [     pool-2-thread-4] ERROR c.t.operations.CurrencyOperations    - Exchange operation failed for account ACC001
+2024-11-17 15:18:53.244 [     pool-2-thread-4] INFO  com.tananushka.dao.AccountDao        - Account saved: ACC001 at path: accounts\ACC001.json
+2024-11-17 15:18:53.244 [     pool-2-thread-4] INFO  c.tananushka.service.AccountService  - Exchanged 100.00 GEL to 37.73580000 USD for account ACC001
+2024-11-17 15:18:53.248 [     pool-2-thread-4] INFO  com.tananushka.dao.AccountDao        - Account saved: ACC001 at path: accounts\ACC001.json
+2024-11-17 15:18:53.248 [     pool-2-thread-4] INFO  c.tananushka.service.AccountService  - Exchanged 100.00 USD to 85.0000 EUR for account ACC001
+2024-11-17 15:18:53.251 [     pool-2-thread-1] INFO  com.tananushka.dao.AccountDao        - Account saved: ACC001 at path: accounts\ACC001.json
+2024-11-17 15:18:53.251 [     pool-2-thread-1] INFO  c.tananushka.service.AccountService  - Exchanged 100.00 EUR to 86.0000 GBP for account ACC001
+2024-11-17 15:18:53.253 [     pool-2-thread-5] INFO  com.tananushka.dao.AccountDao        - Account saved: ACC001 at path: accounts\ACC001.json
+2024-11-17 15:18:53.254 [     pool-2-thread-5] INFO  c.tananushka.service.AccountService  - Exchanged 100.00 USD to 85.0000 EUR for account ACC001
+2024-11-17 15:18:53.254 [                main] ERROR c.t.operations.CurrencyOperations    - Fund transfer failed: Exchange rate not found for pair: GEL-GEL
+2024-11-17 15:18:53.255 [                main] ERROR c.t.CurrencyExchangeApplication      - Insufficient funds: Fund transfer failed: Exchange rate not found for pair: GEL-GEL
+2024-11-17 15:18:53.256 [     pool-2-thread-5] INFO  com.tananushka.dao.AccountDao        - Account saved: ACC001 at path: accounts\ACC001.json
+2024-11-17 15:18:53.256 [     pool-2-thread-5] INFO  c.tananushka.service.AccountService  - Exchanged 100.00 GBP to 363.0000 GEL for account ACC001
+2024-11-17 15:18:53.257 [     pool-2-thread-5] INFO  com.tananushka.dao.AccountDao        - Account saved: ACC001 at path: accounts\ACC001.json
+2024-11-17 15:18:53.258 [     pool-2-thread-5] INFO  c.tananushka.service.AccountService  - Exchanged 100.00 GEL to 37.73580000 USD for account ACC001
+2024-11-17 15:18:53.259 [     pool-2-thread-1] INFO  com.tananushka.dao.AccountDao        - Account saved: ACC001 at path: accounts\ACC001.json
+2024-11-17 15:18:53.259 [     pool-2-thread-1] INFO  c.tananushka.service.AccountService  - Exchanged 100.00 GEL to 37.73580000 USD for account ACC001
+2024-11-17 15:18:53.260 [     pool-2-thread-4] INFO  com.tananushka.dao.AccountDao        - Account saved: ACC001 at path: accounts\ACC001.json
+2024-11-17 15:18:53.260 [     pool-2-thread-4] INFO  c.tananushka.service.AccountService  - Exchanged 100.00 EUR to 86.0000 GBP for account ACC001
+2024-11-17 15:18:53.262 [     pool-2-thread-3] INFO  com.tananushka.dao.AccountDao        - Account saved: ACC001 at path: accounts\ACC001.json
+2024-11-17 15:18:53.262 [     pool-2-thread-3] INFO  c.tananushka.service.AccountService  - Exchanged 100.00 EUR to 86.0000 GBP for account ACC001
+2024-11-17 15:18:53.263 [     pool-2-thread-3] INFO  com.tananushka.dao.AccountDao        - Account saved: ACC001 at path: accounts\ACC001.json
+2024-11-17 15:18:53.263 [     pool-2-thread-3] INFO  c.tananushka.service.AccountService  - Exchanged 100.00 GEL to 37.73580000 USD for account ACC001
+2024-11-17 15:18:53.264 [     pool-2-thread-3] INFO  com.tananushka.dao.AccountDao        - Account saved: ACC001 at path: accounts\ACC001.json
+2024-11-17 15:18:53.264 [     pool-2-thread-3] INFO  c.tananushka.service.AccountService  - Exchanged 100.00 USD to 85.0000 EUR for account ACC001
+2024-11-17 15:18:53.267 [     pool-2-thread-3] INFO  com.tananushka.dao.AccountDao        - Account saved: ACC001 at path: accounts\ACC001.json
+2024-11-17 15:18:53.267 [     pool-2-thread-3] INFO  c.tananushka.service.AccountService  - Exchanged 100.00 EUR to 86.0000 GBP for account ACC001
+2024-11-17 15:18:53.268 [     pool-2-thread-3] INFO  com.tananushka.dao.AccountDao        - Account saved: ACC001 at path: accounts\ACC001.json
+2024-11-17 15:18:53.268 [     pool-2-thread-3] INFO  c.tananushka.service.AccountService  - Exchanged 100.00 GBP to 363.0000 GEL for account ACC001
+2024-11-17 15:18:53.270 [     pool-2-thread-3] INFO  com.tananushka.dao.AccountDao        - Account saved: ACC001 at path: accounts\ACC001.json
+2024-11-17 15:18:53.270 [     pool-2-thread-3] INFO  c.tananushka.service.AccountService  - Exchanged 100.00 GEL to 37.73580000 USD for account ACC001
+2024-11-17 15:18:53.272 [     pool-2-thread-3] INFO  com.tananushka.dao.AccountDao        - Account saved: ACC001 at path: accounts\ACC001.json
+2024-11-17 15:18:53.272 [     pool-2-thread-3] INFO  c.tananushka.service.AccountService  - Exchanged 100.00 USD to 85.0000 EUR for account ACC001
+2024-11-17 15:18:53.275 [     pool-2-thread-2] INFO  com.tananushka.dao.AccountDao        - Account saved: ACC001 at path: accounts\ACC001.json
+2024-11-17 15:18:53.275 [     pool-2-thread-2] INFO  c.tananushka.service.AccountService  - Exchanged 100.00 EUR to 86.0000 GBP for account ACC001
+2024-11-17 15:18:53.278 [     pool-2-thread-2] INFO  com.tananushka.dao.AccountDao        - Account saved: ACC001 at path: accounts\ACC001.json
+2024-11-17 15:18:53.278 [     pool-2-thread-2] INFO  c.tananushka.service.AccountService  - Exchanged 100.00 GBP to 363.0000 GEL for account ACC001
+2024-11-17 15:18:53.279 [     pool-2-thread-3] INFO  com.tananushka.dao.AccountDao        - Account saved: ACC001 at path: accounts\ACC001.json
+2024-11-17 15:18:53.280 [     pool-2-thread-3] INFO  c.tananushka.service.AccountService  - Exchanged 100.00 EUR to 86.0000 GBP for account ACC001
+2024-11-17 15:18:53.281 [     pool-2-thread-4] INFO  com.tananushka.dao.AccountDao        - Account saved: ACC001 at path: accounts\ACC001.json
+2024-11-17 15:18:53.282 [     pool-2-thread-4] INFO  c.tananushka.service.AccountService  - Exchanged 100.00 GBP to 363.0000 GEL for account ACC001
+2024-11-17 15:18:53.283 [     pool-2-thread-1] INFO  com.tananushka.dao.AccountDao        - Account saved: ACC001 at path: accounts\ACC001.json
+2024-11-17 15:18:53.283 [     pool-2-thread-1] INFO  c.tananushka.service.AccountService  - Exchanged 100.00 EUR to 86.0000 GBP for account ACC001
+2024-11-17 15:18:53.284 [     pool-2-thread-5] INFO  com.tananushka.dao.AccountDao        - Account saved: ACC001 at path: accounts\ACC001.json
+2024-11-17 15:18:53.284 [     pool-2-thread-5] INFO  c.tananushka.service.AccountService  - Exchanged 100.00 USD to 85.0000 EUR for account ACC001
+2024-11-17 15:18:53.285 [                main] ERROR c.t.operations.CurrencyOperations    - Fund transfer failed: Exchange rate not found for pair: GEL-GEL
+2024-11-17 15:18:53.285 [                main] ERROR c.t.CurrencyExchangeApplication      - Insufficient funds: Fund transfer failed: Exchange rate not found for pair: GEL-GEL
+2024-11-17 15:18:53.286 [     pool-2-thread-5] INFO  com.tananushka.dao.AccountDao        - Account saved: ACC001 at path: accounts\ACC001.json
+2024-11-17 15:18:53.286 [     pool-2-thread-5] INFO  c.tananushka.service.AccountService  - Exchanged 100.00 GEL to 37.73580000 USD for account ACC001
+2024-11-17 15:18:53.288 [     pool-2-thread-5] INFO  com.tananushka.dao.AccountDao        - Account saved: ACC001 at path: accounts\ACC001.json
+2024-11-17 15:18:53.288 [     pool-2-thread-5] INFO  c.tananushka.service.AccountService  - Exchanged 100.00 EUR to 86.0000 GBP for account ACC001
+2024-11-17 15:18:53.289 [     pool-2-thread-1] INFO  com.tananushka.dao.AccountDao        - Account saved: ACC001 at path: accounts\ACC001.json
+2024-11-17 15:18:53.289 [     pool-2-thread-1] INFO  c.tananushka.service.AccountService  - Exchanged 100.00 GBP to 363.0000 GEL for account ACC001
+2024-11-17 15:18:53.290 [     pool-2-thread-4] INFO  com.tananushka.dao.AccountDao        - Account saved: ACC001 at path: accounts\ACC001.json
+2024-11-17 15:18:53.290 [     pool-2-thread-4] INFO  c.tananushka.service.AccountService  - Exchanged 100.00 EUR to 86.0000 GBP for account ACC001
+2024-11-17 15:18:53.291 [     pool-2-thread-3] INFO  com.tananushka.dao.AccountDao        - Account saved: ACC001 at path: accounts\ACC001.json
+2024-11-17 15:18:53.291 [     pool-2-thread-3] INFO  c.tananushka.service.AccountService  - Exchanged 100.00 USD to 85.0000 EUR for account ACC001
+2024-11-17 15:18:53.293 [     pool-2-thread-2] INFO  com.tananushka.dao.AccountDao        - Account saved: ACC001 at path: accounts\ACC001.json
+2024-11-17 15:18:53.293 [     pool-2-thread-2] INFO  c.tananushka.service.AccountService  - Exchanged 100.00 GEL to 37.73580000 USD for account ACC001
+2024-11-17 15:18:53.297 [     pool-2-thread-2] INFO  com.tananushka.dao.AccountDao        - Account saved: ACC001 at path: accounts\ACC001.json
+2024-11-17 15:18:53.298 [     pool-2-thread-2] INFO  c.tananushka.service.AccountService  - Exchanged 100.00 EUR to 86.0000 GBP for account ACC001
+2024-11-17 15:18:53.299 [     pool-2-thread-2] INFO  com.tananushka.dao.AccountDao        - Account saved: ACC001 at path: accounts\ACC001.json
+2024-11-17 15:18:53.299 [     pool-2-thread-2] INFO  c.tananushka.service.AccountService  - Exchanged 100.00 GBP to 363.0000 GEL for account ACC001
+2024-11-17 15:18:53.300 [     pool-2-thread-3] INFO  com.tananushka.dao.AccountDao        - Account saved: ACC001 at path: accounts\ACC001.json
+2024-11-17 15:18:53.301 [     pool-2-thread-3] INFO  c.tananushka.service.AccountService  - Exchanged 100.00 USD to 85.0000 EUR for account ACC001
+2024-11-17 15:18:53.302 [     pool-2-thread-4] INFO  com.tananushka.dao.AccountDao        - Account saved: ACC001 at path: accounts\ACC001.json
+2024-11-17 15:18:53.302 [     pool-2-thread-4] INFO  c.tananushka.service.AccountService  - Exchanged 100.00 GEL to 37.73580000 USD for account ACC001
+2024-11-17 15:18:53.303 [     pool-2-thread-1] INFO  com.tananushka.dao.AccountDao        - Account saved: ACC001 at path: accounts\ACC001.json
+2024-11-17 15:18:53.304 [     pool-2-thread-1] INFO  c.tananushka.service.AccountService  - Exchanged 100.00 GBP to 363.0000 GEL for account ACC001
+2024-11-17 15:18:53.304 [     pool-2-thread-5] INFO  com.tananushka.dao.AccountDao        - Account saved: ACC001 at path: accounts\ACC001.json
+2024-11-17 15:18:53.305 [     pool-2-thread-5] INFO  c.tananushka.service.AccountService  - Exchanged 100.00 USD to 85.0000 EUR for account ACC001
+2024-11-17 15:18:53.305 [                main] ERROR c.t.operations.CurrencyOperations    - Fund transfer failed: Exchange rate not found for pair: EUR-EUR
+2024-11-17 15:18:53.305 [                main] ERROR c.t.CurrencyExchangeApplication      - Insufficient funds: Fund transfer failed: Exchange rate not found for pair: EUR-EUR
+2024-11-17 15:18:53.307 [     pool-2-thread-5] INFO  com.tananushka.dao.AccountDao        - Account saved: ACC001 at path: accounts\ACC001.json
+2024-11-17 15:18:53.307 [     pool-2-thread-5] INFO  c.tananushka.service.AccountService  - Exchanged 100.00 GEL to 37.73580000 USD for account ACC001
+2024-11-17 15:18:53.308 [     pool-2-thread-5] INFO  com.tananushka.dao.AccountDao        - Account saved: ACC001 at path: accounts\ACC001.json
+2024-11-17 15:18:53.309 [     pool-2-thread-5] INFO  c.tananushka.service.AccountService  - Exchanged 100.00 USD to 85.0000 EUR for account ACC001
+2024-11-17 15:18:53.324 [     pool-2-thread-1] INFO  com.tananushka.dao.AccountDao        - Account saved: ACC001 at path: accounts\ACC001.json
+2024-11-17 15:18:53.324 [     pool-2-thread-1] INFO  c.tananushka.service.AccountService  - Exchanged 100.00 GBP to 363.0000 GEL for account ACC001
+2024-11-17 15:18:53.325 [     pool-2-thread-4] INFO  com.tananushka.dao.AccountDao        - Account saved: ACC001 at path: accounts\ACC001.json
+2024-11-17 15:18:53.345 [     pool-2-thread-4] INFO  c.tananushka.service.AccountService  - Exchanged 100.00 EUR to 86.0000 GBP for account ACC001
+2024-11-17 15:18:53.349 [     pool-2-thread-4] INFO  com.tananushka.dao.AccountDao        - Account saved: ACC001 at path: accounts\ACC001.json
+2024-11-17 15:18:53.349 [     pool-2-thread-4] INFO  c.tananushka.service.AccountService  - Exchanged 100.00 GEL to 37.73580000 USD for account ACC001
+2024-11-17 15:18:53.351 [     pool-2-thread-3] INFO  com.tananushka.dao.AccountDao        - Account saved: ACC001 at path: accounts\ACC001.json
+2024-11-17 15:18:53.351 [     pool-2-thread-3] INFO  c.tananushka.service.AccountService  - Exchanged 100.00 USD to 85.0000 EUR for account ACC001
+2024-11-17 15:18:53.351 [     pool-2-thread-2] INFO  com.tananushka.dao.AccountDao        - Account saved: ACC001 at path: accounts\ACC001.json
+2024-11-17 15:18:53.351 [     pool-2-thread-2] INFO  c.tananushka.service.AccountService  - Exchanged 100.00 GEL to 37.73580000 USD for account ACC001
+2024-11-17 15:18:53.352 [     pool-2-thread-3] INFO  com.tananushka.dao.AccountDao        - Account saved: ACC001 at path: accounts\ACC001.json
+2024-11-17 15:18:53.352 [     pool-2-thread-3] INFO  c.tananushka.service.AccountService  - Exchanged 100.00 EUR to 86.0000 GBP for account ACC001
+2024-11-17 15:18:53.353 [     pool-2-thread-4] INFO  com.tananushka.dao.AccountDao        - Account saved: ACC001 at path: accounts\ACC001.json
+2024-11-17 15:18:53.353 [     pool-2-thread-4] INFO  c.tananushka.service.AccountService  - Exchanged 100.00 USD to 85.0000 EUR for account ACC001
+2024-11-17 15:18:53.355 [     pool-2-thread-1] INFO  com.tananushka.dao.AccountDao        - Account saved: ACC001 at path: accounts\ACC001.json
+2024-11-17 15:18:53.355 [     pool-2-thread-1] INFO  c.tananushka.service.AccountService  - Exchanged 100.00 GBP to 363.0000 GEL for account ACC001
+2024-11-17 15:18:53.358 [     pool-2-thread-5] INFO  com.tananushka.dao.AccountDao        - Account saved: ACC001 at path: accounts\ACC001.json
+2024-11-17 15:18:53.358 [     pool-2-thread-5] INFO  c.tananushka.service.AccountService  - Exchanged 100.00 EUR to 86.0000 GBP for account ACC001
+2024-11-17 15:18:53.359 [                main] ERROR c.t.operations.CurrencyOperations    - Fund transfer failed: Exchange rate not found for pair: GEL-GEL
+2024-11-17 15:18:53.359 [                main] ERROR c.t.CurrencyExchangeApplication      - Insufficient funds: Fund transfer failed: Exchange rate not found for pair: GEL-GEL
+2024-11-17 15:18:53.361 [     pool-2-thread-3] INFO  com.tananushka.dao.AccountDao        - Account saved: ACC001 at path: accounts\ACC001.json
+2024-11-17 15:18:53.361 [     pool-2-thread-3] INFO  c.tananushka.service.AccountService  - Exchanged 100.00 GEL to 37.73580000 USD for account ACC001
+2024-11-17 15:18:53.362 [     pool-2-thread-2] INFO  com.tananushka.dao.AccountDao        - Account saved: ACC001 at path: accounts\ACC001.json
+2024-11-17 15:18:53.362 [     pool-2-thread-2] INFO  c.tananushka.service.AccountService  - Exchanged 100.00 GBP to 363.0000 GEL for account ACC001
+2024-11-17 15:18:53.363 [                main] ERROR c.t.operations.CurrencyOperations    - Fund transfer failed: Exchange rate not found for pair: USD-USD
+2024-11-17 15:18:53.363 [                main] ERROR c.t.CurrencyExchangeApplication      - Insufficient funds: Fund transfer failed: Exchange rate not found for pair: USD-USD
+2024-11-17 15:18:53.366 [                main] ERROR c.t.operations.CurrencyOperations    - Fund transfer failed: Exchange rate not found for pair: GBP-GBP
+2024-11-17 15:18:53.366 [                main] ERROR c.t.CurrencyExchangeApplication      - Insufficient funds: Fund transfer failed: Exchange rate not found for pair: GBP-GBP
+2024-11-17 15:18:53.368 [                main] ERROR c.t.operations.CurrencyOperations    - Fund transfer failed: Exchange rate not found for pair: GBP-GBP
+2024-11-17 15:18:53.368 [                main] ERROR c.t.CurrencyExchangeApplication      - Insufficient funds: Fund transfer failed: Exchange rate not found for pair: GBP-GBP
+2024-11-17 15:18:53.370 [                main] ERROR c.t.operations.CurrencyOperations    - Fund transfer failed: Exchange rate not found for pair: GBP-GBP
+2024-11-17 15:18:53.370 [                main] ERROR c.t.CurrencyExchangeApplication      - Insufficient funds: Fund transfer failed: Exchange rate not found for pair: GBP-GBP
+2024-11-17 15:18:53.371 [                main] ERROR c.t.operations.CurrencyOperations    - Fund transfer failed: Exchange rate not found for pair: USD-USD
+2024-11-17 15:18:53.371 [                main] ERROR c.t.CurrencyExchangeApplication      - Insufficient funds: Fund transfer failed: Exchange rate not found for pair: USD-USD
+2024-11-17 15:18:53.374 [                main] ERROR c.t.operations.CurrencyOperations    - Fund transfer failed: Exchange rate not found for pair: GEL-GEL
+2024-11-17 15:18:53.374 [                main] ERROR c.t.CurrencyExchangeApplication      - Insufficient funds: Fund transfer failed: Exchange rate not found for pair: GEL-GEL
+2024-11-17 15:18:53.376 [                main] ERROR c.t.operations.CurrencyOperations    - Fund transfer failed: Exchange rate not found for pair: GEL-GEL
+2024-11-17 15:18:53.376 [                main] ERROR c.t.CurrencyExchangeApplication      - Insufficient funds: Fund transfer failed: Exchange rate not found for pair: GEL-GEL
+2024-11-17 15:18:53.377 [                main] ERROR c.t.operations.CurrencyOperations    - Fund transfer failed: Exchange rate not found for pair: EUR-EUR
+2024-11-17 15:18:53.378 [                main] ERROR c.t.CurrencyExchangeApplication      - Insufficient funds: Fund transfer failed: Exchange rate not found for pair: EUR-EUR
+2024-11-17 15:18:53.379 [                main] ERROR c.t.operations.CurrencyOperations    - Fund transfer failed: Exchange rate not found for pair: GBP-GBP
+2024-11-17 15:18:53.380 [                main] ERROR c.t.CurrencyExchangeApplication      - Insufficient funds: Fund transfer failed: Exchange rate not found for pair: GBP-GBP
+2024-11-17 15:18:53.382 [                main] ERROR c.t.operations.CurrencyOperations    - Fund transfer failed: Exchange rate not found for pair: USD-USD
+2024-11-17 15:18:53.382 [                main] ERROR c.t.CurrencyExchangeApplication      - Insufficient funds: Fund transfer failed: Exchange rate not found for pair: USD-USD
+2024-11-17 15:18:53.383 [                main] ERROR c.t.operations.CurrencyOperations    - Fund transfer failed: Exchange rate not found for pair: GEL-GEL
+2024-11-17 15:18:53.383 [                main] ERROR c.t.CurrencyExchangeApplication      - Insufficient funds: Fund transfer failed: Exchange rate not found for pair: GEL-GEL
+2024-11-17 15:18:53.385 [                main] ERROR c.t.operations.CurrencyOperations    - Fund transfer failed: Exchange rate not found for pair: GBP-GBP
+2024-11-17 15:18:53.386 [                main] ERROR c.t.CurrencyExchangeApplication      - Insufficient funds: Fund transfer failed: Exchange rate not found for pair: GBP-GBP
+2024-11-17 15:18:53.388 [                main] ERROR c.t.operations.CurrencyOperations    - Fund transfer failed: Exchange rate not found for pair: GBP-GBP
+2024-11-17 15:18:53.388 [                main] ERROR c.t.CurrencyExchangeApplication      - Insufficient funds: Fund transfer failed: Exchange rate not found for pair: GBP-GBP
+2024-11-17 15:18:53.389 [                main] ERROR c.t.operations.CurrencyOperations    - Fund transfer failed: Exchange rate not found for pair: EUR-EUR
+2024-11-17 15:18:53.390 [                main] ERROR c.t.CurrencyExchangeApplication      - Insufficient funds: Fund transfer failed: Exchange rate not found for pair: EUR-EUR
+2024-11-17 15:18:53.391 [                main] ERROR c.t.operations.CurrencyOperations    - Fund transfer failed: Exchange rate not found for pair: GBP-GBP
+2024-11-17 15:18:53.391 [                main] ERROR c.t.CurrencyExchangeApplication      - Insufficient funds: Fund transfer failed: Exchange rate not found for pair: GBP-GBP
+2024-11-17 15:18:53.393 [                main] ERROR c.t.operations.CurrencyOperations    - Fund transfer failed: Exchange rate not found for pair: GEL-GEL
+2024-11-17 15:18:53.393 [                main] ERROR c.t.CurrencyExchangeApplication      - Insufficient funds: Fund transfer failed: Exchange rate not found for pair: GEL-GEL
+2024-11-17 15:18:53.396 [                main] ERROR c.t.operations.CurrencyOperations    - Fund transfer failed: Exchange rate not found for pair: GEL-GEL
+2024-11-17 15:18:53.396 [                main] ERROR c.t.CurrencyExchangeApplication      - Insufficient funds: Fund transfer failed: Exchange rate not found for pair: GEL-GEL
+2024-11-17 15:18:53.398 [                main] ERROR c.t.operations.CurrencyOperations    - Fund transfer failed: Exchange rate not found for pair: EUR-EUR
+2024-11-17 15:18:53.398 [                main] ERROR c.t.CurrencyExchangeApplication      - Insufficient funds: Fund transfer failed: Exchange rate not found for pair: EUR-EUR
+2024-11-17 15:18:53.398 [                main] INFO  c.t.CurrencyExchangeApplication      - Demonstrating account operations...
+2024-11-17 15:18:53.399 [                main] INFO  c.t.CurrencyExchangeApplication      - ACC003 GBP balance: 4081.97
+2024-11-17 15:18:53.400 [                main] INFO  c.t.CurrencyExchangeApplication      - ACC009 USD balance: 1352
+2024-11-17 15:18:53.400 [                main] INFO  c.t.CurrencyExchangeApplication      - ACC006 GEL balance: 10626
+2024-11-17 15:18:53.401 [                main] INFO  c.t.CurrencyExchangeApplication      - ACC004 GEL balance: 6670.27
+2024-11-17 15:18:53.402 [                main] INFO  c.t.CurrencyExchangeApplication      - ACC017 EUR balance: 7706.75
+2024-11-17 15:18:53.404 [                main] INFO  c.t.CurrencyExchangeApplication      - ACC004 GBP balance: 8872.357968
+2024-11-17 15:18:53.405 [                main] INFO  c.t.CurrencyExchangeApplication      - ACC012 GEL balance: 8297
+2024-11-17 15:18:53.406 [                main] INFO  c.t.CurrencyExchangeApplication      - ACC010 EUR balance: 8554
+2024-11-17 15:18:53.407 [                main] INFO  c.t.CurrencyExchangeApplication      - ACC005 USD balance: 3715
+2024-11-17 15:18:53.408 [                main] INFO  c.t.CurrencyExchangeApplication      - ACC004 EUR balance: 4056
+2024-11-17 15:18:53.412 [                main] INFO  com.tananushka.dao.AccountDao        - Account saved: ACC017 at path: accounts\ACC017.json
+2024-11-17 15:18:53.412 [                main] INFO  c.tananushka.service.AccountService  - Account ACC017 status changed to FROZEN
+2024-11-17 15:18:53.412 [                main] INFO  c.t.operations.AccountOperations     - Account ACC017 has been frozen
+2024-11-17 15:18:53.415 [                main] INFO  com.tananushka.dao.AccountDao        - Account saved: ACC017 at path: accounts\ACC017.json
+2024-11-17 15:18:53.416 [                main] INFO  c.tananushka.service.AccountService  - Account ACC017 status changed to ACTIVE
+2024-11-17 15:18:53.416 [                main] INFO  c.t.operations.AccountOperations     - Account ACC017 has been unfrozen
+2024-11-17 15:18:53.418 [                main] INFO  com.tananushka.dao.AccountDao        - Account saved: ACC011 at path: accounts\ACC011.json
+2024-11-17 15:18:53.418 [                main] INFO  c.tananushka.service.AccountService  - Account ACC011 status changed to FROZEN
+2024-11-17 15:18:53.418 [                main] INFO  c.t.operations.AccountOperations     - Account ACC011 has been frozen
+2024-11-17 15:18:53.419 [                main] INFO  com.tananushka.dao.AccountDao        - Account saved: ACC011 at path: accounts\ACC011.json
+2024-11-17 15:18:53.419 [                main] INFO  c.tananushka.service.AccountService  - Account ACC011 status changed to ACTIVE
+2024-11-17 15:18:53.419 [                main] INFO  c.t.operations.AccountOperations     - Account ACC011 has been unfrozen
+2024-11-17 15:18:53.420 [                main] INFO  com.tananushka.dao.AccountDao        - Account saved: ACC011 at path: accounts\ACC011.json
+2024-11-17 15:18:53.420 [                main] INFO  c.tananushka.service.AccountService  - Account ACC011 status changed to FROZEN
+2024-11-17 15:18:53.420 [                main] INFO  c.t.operations.AccountOperations     - Account ACC011 has been frozen
+2024-11-17 15:18:53.421 [                main] INFO  com.tananushka.dao.AccountDao        - Account saved: ACC011 at path: accounts\ACC011.json
+2024-11-17 15:18:53.421 [                main] INFO  c.tananushka.service.AccountService  - Account ACC011 status changed to ACTIVE
+2024-11-17 15:18:53.421 [                main] INFO  c.t.operations.AccountOperations     - Account ACC011 has been unfrozen
+2024-11-17 15:18:53.422 [                main] INFO  com.tananushka.dao.AccountDao        - Account saved: ACC002 at path: accounts\ACC002.json
+2024-11-17 15:18:53.423 [                main] INFO  c.tananushka.service.AccountService  - Account ACC002 status changed to FROZEN
+2024-11-17 15:18:53.423 [                main] INFO  c.t.operations.AccountOperations     - Account ACC002 has been frozen
+2024-11-17 15:18:53.424 [                main] INFO  com.tananushka.dao.AccountDao        - Account saved: ACC002 at path: accounts\ACC002.json
+2024-11-17 15:18:53.424 [                main] INFO  c.tananushka.service.AccountService  - Account ACC002 status changed to ACTIVE
+2024-11-17 15:18:53.424 [                main] INFO  c.t.operations.AccountOperations     - Account ACC002 has been unfrozen
+2024-11-17 15:18:53.426 [                main] INFO  com.tananushka.dao.AccountDao        - Account saved: ACC009 at path: accounts\ACC009.json
+2024-11-17 15:18:53.427 [                main] INFO  c.tananushka.service.AccountService  - Account ACC009 status changed to FROZEN
+2024-11-17 15:18:53.427 [                main] INFO  c.t.operations.AccountOperations     - Account ACC009 has been frozen
+2024-11-17 15:18:53.434 [                main] INFO  com.tananushka.dao.AccountDao        - Account saved: ACC009 at path: accounts\ACC009.json
+2024-11-17 15:18:53.436 [                main] INFO  c.tananushka.service.AccountService  - Account ACC009 status changed to ACTIVE
+2024-11-17 15:18:53.436 [                main] INFO  c.t.operations.AccountOperations     - Account ACC009 has been unfrozen
+2024-11-17 15:18:53.437 [                main] INFO  c.t.CurrencyExchangeApplication      - Account operations demonstration completed

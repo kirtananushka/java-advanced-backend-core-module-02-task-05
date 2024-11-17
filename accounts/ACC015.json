@@ -1,0 +1,27 @@
+{
+  "id": "ACC015",
+  "ownerName": "Tamar Chavchavadze",
+  "status": "ACTIVE",
+  "currencies": {
+    "EUR": {
+      "code": "EUR",
+      "name": null,
+      "amount": 4706
+    },
+    "GBP": {
+      "code": "GBP",
+      "name": null,
+      "amount": 6096
+    },
+    "USD": {
+      "code": "USD",
+      "name": null,
+      "amount": 2529
+    },
+    "GEL": {
+      "code": "GEL",
+      "name": null,
+      "amount": 8637.76
+    }
+  }
+}

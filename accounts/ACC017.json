@@ -1,0 +1,27 @@
+{
+  "id": "ACC017",
+  "ownerName": "Nikoloz Giorgadze",
+  "status": "ACTIVE",
+  "currencies": {
+    "EUR": {
+      "code": "EUR",
+      "name": null,
+      "amount": 7706.75
+    },
+    "GBP": {
+      "code": "GBP",
+      "name": null,
+      "amount": 3456
+    },
+    "USD": {
+      "code": "USD",
+      "name": null,
+      "amount": 1192
+    },
+    "GEL": {
+      "code": "GEL",
+      "name": null,
+      "amount": 14540
+    }
+  }
+}

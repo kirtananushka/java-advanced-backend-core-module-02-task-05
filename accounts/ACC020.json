@@ -1,0 +1,27 @@
+{
+  "id": "ACC020",
+  "ownerName": "Giorgi Lomidze",
+  "status": "ACTIVE",
+  "currencies": {
+    "EUR": {
+      "code": "EUR",
+      "name": null,
+      "amount": 6930.267551
+    },
+    "GBP": {
+      "code": "GBP",
+      "name": null,
+      "amount": 6795
+    },
+    "USD": {
+      "code": "USD",
+      "name": null,
+      "amount": 6892
+    },
+    "GEL": {
+      "code": "GEL",
+      "name": null,
+      "amount": 5498
+    }
+  }
+}
