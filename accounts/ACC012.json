@@ -1,0 +1,27 @@
+{
+  "id": "ACC012",
+  "ownerName": "Luka Beridze",
+  "status": "ACTIVE",
+  "currencies": {
+    "EUR": {
+      "code": "EUR",
+      "name": null,
+      "amount": 2021.164223
+    },
+    "GBP": {
+      "code": "GBP",
+      "name": null,
+      "amount": 7744
+    },
+    "USD": {
+      "code": "USD",
+      "name": null,
+      "amount": 582
+    },
+    "GEL": {
+      "code": "GEL",
+      "name": null,
+      "amount": 8297
+    }
+  }
+}

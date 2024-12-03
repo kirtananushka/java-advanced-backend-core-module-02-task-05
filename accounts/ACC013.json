@@ -1,0 +1,27 @@
+{
+  "id": "ACC013",
+  "ownerName": "Giorgi Giorgadze",
+  "status": "ACTIVE",
+  "currencies": {
+    "EUR": {
+      "code": "EUR",
+      "name": null,
+      "amount": 628.75
+    },
+    "GBP": {
+      "code": "GBP",
+      "name": null,
+      "amount": 7349.44
+    },
+    "USD": {
+      "code": "USD",
+      "name": null,
+      "amount": 6419.176758
+    },
+    "GEL": {
+      "code": "GEL",
+      "name": null,
+      "amount": 10955
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "id": "ACC007",
+  "ownerName": "Tamar Javakhishvili",
+  "status": "ACTIVE",
+  "currencies": {
+    "EUR": {
+      "code": "EUR",
+      "name": null,
+      "amount": 3740
+    },
+    "GBP": {
+      "code": "GBP",
+      "name": null,
+      "amount": 2691
+    },
+    "USD": {
+      "code": "USD",
+      "name": null,
+      "amount": 10483
+    },
+    "GEL": {
+      "code": "GEL",
+      "name": null,
+      "amount": 12278.34
+    }
+  }
+}

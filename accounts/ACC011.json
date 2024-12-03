@@ -1,0 +1,27 @@
+{
+  "id": "ACC011",
+  "ownerName": "Tamar Maisuradze",
+  "status": "ACTIVE",
+  "currencies": {
+    "EUR": {
+      "code": "EUR",
+      "name": null,
+      "amount": 2439
+    },
+    "GBP": {
+      "code": "GBP",
+      "name": null,
+      "amount": 4611.92
+    },
+    "USD": {
+      "code": "USD",
+      "name": null,
+      "amount": 1482.962038
+    },
+    "GEL": {
+      "code": "GEL",
+      "name": null,
+      "amount": 16938
+    }
+  }
+}

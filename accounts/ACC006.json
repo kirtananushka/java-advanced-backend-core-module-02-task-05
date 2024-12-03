@@ -1,0 +1,27 @@
+{
+  "id": "ACC006",
+  "ownerName": "Davit Lomidze",
+  "status": "ACTIVE",
+  "currencies": {
+    "EUR": {
+      "code": "EUR",
+      "name": null,
+      "amount": 7424
+    },
+    "GBP": {
+      "code": "GBP",
+      "name": null,
+      "amount": 7493.92
+    },
+    "USD": {
+      "code": "USD",
+      "name": null,
+      "amount": 8354
+    },
+    "GEL": {
+      "code": "GEL",
+      "name": null,
+      "amount": 10626
+    }
+  }
+}

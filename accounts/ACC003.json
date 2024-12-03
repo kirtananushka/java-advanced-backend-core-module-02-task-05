@@ -1,0 +1,27 @@
+{
+  "id": "ACC003",
+  "ownerName": "Mariam Tsiklauri",
+  "status": "ACTIVE",
+  "currencies": {
+    "EUR": {
+      "code": "EUR",
+      "name": null,
+      "amount": 1956.974462
+    },
+    "GBP": {
+      "code": "GBP",
+      "name": null,
+      "amount": 4081.97
+    },
+    "USD": {
+      "code": "USD",
+      "name": null,
+      "amount": 531
+    },
+    "GEL": {
+      "code": "GEL",
+      "name": null,
+      "amount": 19991
+    }
+  }
+}

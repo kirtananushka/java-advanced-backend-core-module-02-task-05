@@ -1,0 +1,27 @@
+{
+  "id": "ACC001",
+  "ownerName": "Nino Tsintsadze",
+  "status": "ACTIVE",
+  "currencies": {
+    "EUR": {
+      "code": "EUR",
+      "name": null,
+      "amount": 8287.240987
+    },
+    "GBP": {
+      "code": "GBP",
+      "name": null,
+      "amount": 193.0000
+    },
+    "USD": {
+      "code": "USD",
+      "name": null,
+      "amount": 6892.39500000
+    },
+    "GEL": {
+      "code": "GEL",
+      "name": null,
+      "amount": 29684.0000
+    }
+  }
+}
